@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 热点 &amp; Vibe Coding 日报</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" media="print" onload="this.media='all'"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </noscript>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app" x-data="app()" x-init="init()" :class="{ dark: dark }">
+
+  <!-- ── 灯箱（单图放大）──────────────────────────────────────────────────── -->
+  <div class="lightbox" x-show="lb.open" x-transition
+       @click.self="lb.open=false" @keydown.escape.window="lb.open=false">
+    <button class="lb-close" @click="lb.open=false" aria-label="关闭">✕</button>
+    <img class="lb-img" :src="lb.img" alt="" @error="$el.src=placeholderSvg">
+  </div>
+
+  <!-- ── 顶栏 ──────────────────────────────────────────────────────────────── -->
+  <header>
+    <div class="header-top">
+      <div class="brand">
+        <span class="brand-icon">✦</span>
+        <h1>AI 热点 &amp; Vibe Coding</h1>
+      </div>
+      <div class="header-actions">
+        <div class="date-picker-wrap">
+          <label for="date-select">日期</label>
+          <select id="date-select" x-model="selDate" @change="loadDate(selDate)">
+            <template x-for="d in dates" :key="d">
+              <option :value="d" x-text="d"></option>
+            </template>
+          </select>
+        </div>
+        <button class="theme-btn" @click="toggleTheme()" :title="dark?'切换亮色':'切换暗色'">
+          <span x-text="dark ? '☀' : '☾'"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Tab 切换 -->
+    <nav class="tabs">
+      <button class="tab" :class="{active: tab==='ai'}" @click="tab='ai'">
+        <span class="tab-icon">🔥</span>热点 AI 工具
+        <span class="tab-badge" x-text="filteredAi.length" x-show="filteredAi.length"></span>
+      </button>
+      <button class="tab" :class="{active: tab==='vibe'}" @click="tab='vibe'">
+        <span class="tab-icon">⚡</span>Vibe Coding 分享
+        <span class="tab-badge" x-text="filteredVibe.length" x-show="filteredVibe.length"></span>
+      </button>
+    </nav>
+
+    <!-- 工具栏 -->
+    <div class="toolbar">
+      <div class="search-wrap">
+        <svg class="search-icon" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clip-rule="evenodd"/>
+        </svg>
+        <input type="text" class="search-input" placeholder="搜索工具名称或描述…" x-model.debounce.300ms="q">
+        <button class="search-clear" x-show="q" @click="q=''" aria-label="清除">✕</button>
+      </div>
+
+      <template x-if="tab==='ai'">
+        <div style="width:100%;display:flex;flex-direction:column;gap:6px;">
+          <div class="source-filters">
+            <template x-for="src in sourceTabs" :key="src">
+              <button class="src-btn" :class="{active: srcFilter===src}"
+                      @click="srcFilter=src" x-text="src"></button>
+            </template>
+          </div>
+          <div class="sub-filters">
+            <span class="sub-label">分类：</span>
+            <template x-for="[val,label] in [['全部','全部'],['专业','专业工具'],['实用','实用工具']]" :key="val">
+              <button :class="catBtnClass(val)" @click="catFilter=val" x-text="label"></button>
+            </template>
+          </div>
+        </div>
+      </template>
+
+      <template x-if="tab==='vibe'">
+        <div class="sub-filters">
+          <span class="sub-label">类型：</span>
+          <template x-for="[val,label] in [['全部','全部'],['工具','工具本身'],['作品','Vibe 作品']]" :key="val">
+            <button :class="kindBtnClass(val)" @click="kindFilter=val" x-text="label"></button>
+          </template>
+          <span style="margin-left:8px;font-size:.75rem;color:var(--text2);"
+                x-show="vibeToolCount||vibeWorkCount"
+                x-text="`工具 ${vibeToolCount} / 作品 ${vibeWorkCount}`"></span>
+        </div>
+      </template>
+
+      <div class="gen-time" x-show="genAt" x-text="'生成于 ' + genAt"></div>
+    </div>
+  </header>
+
+  <!-- ── 主体 ──────────────────────────────────────────────────────────────── -->
+  <main>
+    <div class="state-center" x-show="loading">
+      <div class="spinner"></div><p>加载中…</p>
+    </div>
+
+    <div class="error-banner" x-show="!loading && globalErr" x-text="globalErr"></div>
+
+    <!-- ─ 今日精选（Tab 内容上方，始终可见）──────────────────────────────────── -->
+    <section class="featured-section" x-show="!loading && featured.length > 0">
+      <div class="featured-header">
+        <span class="featured-icon">⭐</span>
+        <h2 class="featured-title">今日精选</h2>
+        <span class="featured-count" x-text="`· ${featured.length} 条`"></span>
+      </div>
+      <div class="featured-scroll">
+        <template x-for="item in featured" :key="item.url">
+          <article class="card featured-card" x-data="{imgErr:false}">
+            <div class="card-img-wrap">
+              <img x-show="item.image && !imgErr"
+                   class="card-img" :src="item.image||''"
+                   :alt="item.tool_name||item.title"
+                   @error="imgErr=true"
+                   @click="openLb(item.image)"
+                   loading="lazy">
+              <div class="letter-placeholder" x-show="!item.image||imgErr">
+                <span x-text="(item.tool_name||item.title||'?')[0].toUpperCase()"></span>
+              </div>
+              <span class="featured-badge">⭐ 精选</span>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="src-tag" :class="srcClass(item.source)" x-text="item.source"></span>
+                <span class="cat-badge" :class="`cat-${item.category}`" x-show="item.category" x-text="item.category"></span>
+              </div>
+              <h3 class="card-title">
+                <a :href="item.url" target="_blank" rel="noopener noreferrer"
+                   x-text="item.tool_name||item.title"></a>
+              </h3>
+              <p class="card-what"
+                 x-show="item.intro?.what"
+                 x-text="item.intro?.what"></p>
+            </div>
+          </article>
+        </template>
+      </div>
+    </section>
+
+    <!-- ─ AI Tools Tab ──────────────────────────────────────────────────────── -->
+    <section x-show="!loading && tab==='ai'">
+      <template x-for="notice in srcErrors" :key="notice">
+        <div class="src-error-notice" x-text="notice"></div>
+      </template>
+      <div class="cards-grid" x-show="filteredAi.length>0">
+        <template x-for="item in filteredAi" :key="item.url">
+          <article class="card" x-data="{imgErr:false}">
+            <!-- 单张封面图 -->
+            <div class="card-img-wrap">
+              <img x-show="item.image && !imgErr"
+                   class="card-img" :src="item.image||''"
+                   :alt="item.tool_name||item.title"
+                   @error="imgErr=true"
+                   @click="openLb(item.image)"
+                   loading="lazy">
+              <div class="letter-placeholder" x-show="!item.image||imgErr">
+                <span x-text="(item.tool_name||item.title||'?')[0].toUpperCase()"></span>
+              </div>
+            </div>
+            <!-- 卡片内容 -->
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="src-tag" :class="srcClass(item.source)" x-text="item.source"></span>
+                <span class="cat-badge" :class="`cat-${item.category}`" x-show="item.category" x-text="item.category"></span>
+                <span class="extra-txt" x-text="item.extra" x-show="item.extra"></span>
+              </div>
+              <h3 class="card-title">
+                <a :href="item.url" target="_blank" rel="noopener noreferrer"
+                   x-text="item.tool_name||item.title"></a>
+              </h3>
+              <!-- 结构化介绍 -->
+              <template x-if="item.intro?.what">
+                <div class="card-intro">
+                  <p class="intro-what" x-text="item.intro.what"></p>
+                  <ul class="intro-highlights" x-show="item.intro.highlights?.length && item.intro.highlights[0]!=='信息有限'">
+                    <template x-for="h in (item.intro.highlights||[])">
+                      <li x-text="h"></li>
+                    </template>
+                  </ul>
+                  <div class="intro-footer" x-show="item.intro.use_case && item.intro.use_case!=='信息有限'">
+                    <span class="intro-usecase" x-text="'适合：' + item.intro.use_case"></span>
+                  </div>
+                </div>
+              </template>
+              <!-- 无 intro 时显示 summary -->
+              <p class="card-summary"
+                 x-show="!item.intro?.what && item.summary"
+                 x-text="item.summary"></p>
+              <!-- 卡片底部 -->
+              <div class="card-footer">
+                <a :href="item.url" target="_blank" rel="noopener noreferrer" class="card-cta">查看详情 →</a>
+                <button class="copy-btn"
+                        :class="{'copied': copyTexts[item.url]}"
+                        @click="copyItem(item)"
+                        x-text="copyTexts[item.url] ? '已复制 ✓' : '📋 复制文案'">
+                </button>
+              </div>
+            </div>
+          </article>
+        </template>
+      </div>
+      <div class="state-center" x-show="!loading&&filteredAi.length===0">
+        <p class="empty-msg">没有找到匹配内容</p>
+      </div>
+    </section>
+
+    <!-- ─ Vibe Coding Tab ────────────────────────────────────────────────────── -->
+    <section x-show="!loading && tab==='vibe'">
+      <div class="cards-grid" x-show="filteredVibe.length>0">
+        <template x-for="item in filteredVibe" :key="item.url">
+          <article class="card" x-data="{imgErr:false}">
+            <div class="card-img-wrap">
+              <img x-show="item.image && !imgErr"
+                   class="card-img" :src="item.image||''"
+                   :alt="item.tool_name||item.title"
+                   @error="imgErr=true"
+                   @click="openLb(item.image)"
+                   loading="lazy">
+              <div class="letter-placeholder" x-show="!item.image||imgErr">
+                <span x-text="(item.tool_name||item.title||'?')[0].toUpperCase()"></span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="src-tag" :class="srcClass(item.source)" x-text="item.source"></span>
+                <span class="cat-badge" :class="`kind-${item.kind}`" x-show="item.kind" x-text="item.kind"></span>
+                <span class="extra-txt" x-text="item.extra" x-show="item.extra"></span>
+              </div>
+              <h3 class="card-title">
+                <a :href="item.url" target="_blank" rel="noopener noreferrer"
+                   x-text="item.tool_name||item.title"></a>
+              </h3>
+              <template x-if="item.intro?.what">
+                <div class="card-intro">
+                  <p class="intro-what" x-text="item.intro.what"></p>
+                  <ul class="intro-highlights" x-show="item.intro.highlights?.length && item.intro.highlights[0]!=='信息有限'">
+                    <template x-for="h in (item.intro.highlights||[])">
+                      <li x-text="h"></li>
+                    </template>
+                  </ul>
+                  <div class="intro-footer" x-show="item.intro.use_case && item.intro.use_case!=='信息有限'">
+                    <span class="intro-usecase" x-text="'适合：' + item.intro.use_case"></span>
+                  </div>
+                </div>
+              </template>
+              <p class="card-summary"
+                 x-show="!item.intro?.what && item.summary"
+                 x-text="item.summary"></p>
+              <div class="card-footer">
+                <a :href="item.url" target="_blank" rel="noopener noreferrer" class="card-cta">查看详情 →</a>
+                <button class="copy-btn"
+                        :class="{'copied': copyTexts[item.url]}"
+                        @click="copyItem(item)"
+                        x-text="copyTexts[item.url] ? '已复制 ✓' : '📋 复制文案'">
+                </button>
+              </div>
+            </div>
+          </article>
+        </template>
+      </div>
+      <div class="state-center" x-show="!loading&&filteredVibe.length===0">
+        <p class="empty-msg">没有找到 Vibe Coding 相关内容</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>近期热门池（最近 14 天）· 数据仅供参考 · <span x-text="selDate"></span></p>
+  </footer>
+
+</div><!-- #app -->
+<script defer src="alpine.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
