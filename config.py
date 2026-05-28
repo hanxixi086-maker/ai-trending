@@ -154,6 +154,10 @@ FEATURE_WEIGHTS = {
 FEATURED_COUNT = 10            # 今日精选数量
 FEATURED_MAX_PER_SOURCE = 3   # 同一来源最多占几席（保证多样性）
 
+# ── DeepSeek AI 配置（从环境变量读 DEEPSEEK_API_KEY，不硬编码）──────────────────
+DEEPSEEK_BASE_URL = "https://api.deepseek.com"
+DEEPSEEK_MODEL    = "deepseek-chat"
+
 # ── HTTP 请求公共配置 ──────────────────────────────────────────────────────────
 REQUEST_TIMEOUT = 15
 REQUEST_HEADERS = {

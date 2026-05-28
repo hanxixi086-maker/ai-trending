@@ -1,6 +1,6 @@
-"""Structured intro generator: rule-based fallback + optional Claude Haiku.
+"""Structured intro generator: rule-based fallback + optional DeepSeek.
 
-Quality rules (both rule-based and Haiku versions must follow):
+Quality rules (both rule-based and DeepSeek versions must follow):
   what       -- must be fluent Chinese, or empty. Never output full English sentences.
   highlights -- only real data-backed highlights; no boilerplate badges;
                 fewer is fine, empty list is fine.
@@ -10,6 +10,7 @@ Quality rules (both rule-based and Haiku versions must follow):
 import json
 import os
 import re
+import time
 
 
 # -- English slogan / tagline detection ----------------------------------------
@@ -67,6 +68,43 @@ def _is_english_text(text):
 def _clean_summary(summary):
     """Remove navigation artifacts, return clean summary."""
     return _NAV_JUNK.sub('', summary).strip()
+
+
+# -- Generic-comparison filter -------------------------------------------------
+# why_featured 不允许引用"同类工具/竞品/大多数产品/市面上多数/业内主流"等抽象对比对象，
+# 除非源描述里明确出现了对比标记。
+
+_GENERIC_COMPARE = re.compile(
+    r'(同类|类似产品|类似工具|类似方案|竞品|大多数|普遍(?:依赖|采用|使用|存在|需要)'
+    r'|多数(?:同类|闭源|开源|产品|工具|方案)|市面上|业内(?:主流|通常)?'
+    r'|主流(?:的)?(?:工具|产品|方案)|大部分(?:同类|产品|工具|方案))'
+)
+
+_EXPLICIT_COMPARE_EN = re.compile(
+    r'\b(?:unlike|versus|vs\.?|compared\s+to|different\s+from|alternative\s+to'
+    r'|replaces?|instead\s+of|rather\s+than|better\s+than|in\s+contrast)\b',
+    re.IGNORECASE,
+)
+_EXPLICIT_COMPARE_CN = re.compile(r'(?:区别于|不同于|相比|替代|而非|有别于|对标|与众不同)')
+
+
+def _source_has_explicit_compare(item):
+    """Source description explicitly names a comparison target."""
+    src_text = ((item.get('summary') or '') + ' '
+                + (item.get('tool_name') or '') + ' '
+                + (item.get('extra') or ''))
+    return bool(_EXPLICIT_COMPARE_EN.search(src_text)
+                or _EXPLICIT_COMPARE_CN.search(src_text))
+
+
+def _strip_generic_compare(why, item):
+    """If why_featured has generic-comparison phrases but source has no explicit
+    comparison marker, drop why_featured entirely (no fabricated rivalry)."""
+    if not why:
+        return ''
+    if _GENERIC_COMPARE.search(why) and not _source_has_explicit_compare(item):
+        return ''
+    return why
 
 
 # -- Rule-based generator -------------------------------------------------------
@@ -173,13 +211,15 @@ def _default_intro(item):
     }
 
 
-# -- Claude Haiku enhanced generator -------------------------------------------
+# -- DeepSeek enhanced generator -----------------------------------------------
 
-def _claude_intro(item, api_key):
+def _deepseek_intro(item, api_key, retries=2):
+    """Call DeepSeek via OpenAI-compatible SDK. Falls back to rule-based on any error."""
     try:
-        import anthropic
+        from openai import OpenAI
+        from config import DEEPSEEK_BASE_URL, DEEPSEEK_MODEL
 
-        client   = anthropic.Anthropic(api_key=api_key)
+        client   = OpenAI(api_key=api_key, base_url=DEEPSEEK_BASE_URL)
         tool     = item.get('tool_name', '')
         src      = item.get('source', '')
         extra    = item.get('extra', '')
@@ -212,8 +252,13 @@ def _claude_intro(item, api_key):
             '2. highlights 只写有真实依据的亮点（数字/数据/产品特性）；'
             '套话（登上榜单、社区热议、Trending 等）一律禁止；'
             '亮点不足就少写，没有就输出空数组。\n'
-            '3. why_featured 必须差异化；无差异化依据时输出空字符串，不要写套话。\n'
-            '4. 严禁编造信息。\n\n'
+            '3. why_featured 严格规则（重要）：\n'
+            '   - 只能基于本条目自身的描述说明它为什么值得推荐；\n'
+            '   - 严禁引入"同类工具/竞品/大多数产品/市面上多数/业内主流/传统方案"等抽象对比对象；\n'
+            '   - 只有源描述里"明确"出现了对比对象（如 unlike X / vs Y / 区别于 Z / 替代 W），\n'
+            '     才可以使用比较句式；否则禁止写"区别于…""相比…""不同于…""更…"等比较句；\n'
+            '   - 无差异化依据时直接输出空字符串。\n'
+            '4. 严禁编造信息，包括"业内通常如何""市面主流怎样"等想当然的常识陈述。\n\n'
             '工具名：' + tool + '\n'
             '来源：' + src + '（分类：' + category + '）\n'
             '描述：' + _clean_summary(summary)[:400] + '\n'
@@ -227,18 +272,30 @@ def _claude_intro(item, api_key):
             '}'
         )
 
-        msg = client.messages.create(
-            model='claude-haiku-4-5-20251001',
-            max_tokens=400,
-            messages=[{'role': 'user', 'content': prompt}],
-        )
-        text = msg.content[0].text.strip()
+        last_exc = None
+        for attempt in range(retries + 1):
+            try:
+                if attempt > 0:
+                    time.sleep(1.0 * attempt)   # 重试前等待，避免限流
+                resp = client.chat.completions.create(
+                    model=DEEPSEEK_MODEL,
+                    messages=[{'role': 'user', 'content': prompt}],
+                    max_tokens=400,
+                )
+                text = resp.choices[0].message.content.strip()
+                break
+            except Exception as e:
+                last_exc = e
+                continue
+        else:
+            raise last_exc
+
         text = re.sub(r'^```(?:json)?\s*', '', text)
         text = re.sub(r'\s*```$',          '', text)
         data = json.loads(text)
 
         what = str(data.get('what', '')).strip()
-        # If Haiku still outputs English, discard
+        # If DeepSeek still outputs English, discard
         if _is_english_slogan(what) or _is_english_text(what):
             what = ''
 
@@ -253,6 +310,8 @@ def _claude_intro(item, api_key):
         why = str(data.get('why_featured', '')).strip()
         if _is_english_text(why):
             why = ''
+        # 后置过滤：去除未经源描述支撑的对比套话
+        why = _strip_generic_compare(why, item)
 
         return {
             'what':         what[:200],
@@ -267,7 +326,8 @@ def _claude_intro(item, api_key):
 # -- Public entry point ---------------------------------------------------------
 
 def generate_intro(item):
-    api_key = os.environ.get('ANTHROPIC_API_KEY')
+    api_key = os.environ.get('DEEPSEEK_API_KEY')
     if api_key:
-        return _claude_intro(item, api_key)
+        time.sleep(0.3)   # 简单间隔，避免触发限流
+        return _deepseek_intro(item, api_key)
     return _default_intro(item)

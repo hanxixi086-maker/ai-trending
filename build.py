@@ -132,16 +132,24 @@ _BOILERPLATE_WHY = {"Product Hunt 今日精选产品", "近期 AI 社区热点",
 def _intro_needs_regen(item: dict) -> bool:
     """
     True = intro 需要用新版生成器重新生成（步骤 3 丰富阶段触发）。
-    检测：what 是英文（口号或功能描述均不可留）。
+    检测条件：
+      1. what 是英文（口号或功能描述均不可留）
+      2. why_featured 含有对比套话但源描述没有明确的对比标记
+         （"同类工具/竞品/大多数…"系列，需用新 prompt + 后置过滤清理）
     """
+    from intro_generator import (_is_english_slogan, _is_english_text,
+                                  _GENERIC_COMPARE, _source_has_explicit_compare)
     intro = item.get("intro")
     if not intro or not isinstance(intro, dict):
         return True
     what = intro.get("what", "")
-    if not what:
-        return False   # 已经为空，规则方法无法改善，不再重试
-    # 英文口号 or 英文功能描述 → 都不允许，需重新生成（新规则会置空）
-    return _is_english_slogan(what) or _is_english_text(what)
+    if what and (_is_english_slogan(what) or _is_english_text(what)):
+        return True
+    # why_featured 含对比套话且源描述无明确对比标记 → 用新 prompt 重生成
+    why = intro.get("why_featured", "")
+    if why and _GENERIC_COMPARE.search(why) and not _source_has_explicit_compare(item):
+        return True
+    return False
 
 
 def _need_enrich(items: list, known_urls: set) -> list:
@@ -558,12 +566,23 @@ def main():
         )
 
     # 门槛二：信息够做内容（有中文 what 或至少 1 条真实 highlight）
+    #         + HN 来源额外要求：分数 >= 50 才能进精选
     def _featured_content_ok(it: dict) -> bool:
         intro = it.get("intro") or {}
         what  = intro.get("what", "")
         has_cn_what = bool(what and any(0x4E00 <= ord(c) <= 0x9FFF for c in what))
         has_hl      = bool(intro.get("highlights"))   # 非空列表即可
-        return has_cn_what or has_hl
+        if not (has_cn_what or has_hl):
+            return False
+        # HN 来源：历史缓存同样受阈值约束，<50 分一律拦截
+        src   = it.get("source", "").lower()
+        extra = it.get("extra", "")
+        if "hacker" in src:
+            m = re.search(r'(\d[\d,]*)\s*points?', extra, re.IGNORECASE)
+            pts = int(m.group(1).replace(',', '')) if m else 0
+            if pts < 50:
+                return False
+        return True
 
     seen_feat: set = set()
     pool_for_featured: list = []

@@ -14,7 +14,7 @@ def _og_image(url: str) -> str:
     try:
         r = requests.get(
             url, headers=REQUEST_HEADERS,
-            timeout=IMAGE_DOWNLOAD_TIMEOUT, allow_redirects=True,
+            timeout=(8, IMAGE_DOWNLOAD_TIMEOUT), allow_redirects=True,
         )
         if r.status_code == 200:
             soup = BeautifulSoup(r.text, "html.parser")
