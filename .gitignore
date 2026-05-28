@@ -4,9 +4,9 @@ __pycache__/
 .env
 .env.*
 
-# 生成的数据（每日构建产物，不纳入版本管理）
-web/data/
+# 图片资源（二进制大文件，不纳入版本管理）
 web/images/
+web/data/images/
 
 # 系统文件
 .DS_Store

@@ -1,0 +1,2171 @@
+{
+  "date": "2026-05-26",
+  "generated_at": "2026-05-26T16:17:39.732174",
+  "ai_tools": {
+    "github": {
+      "items": [
+        {
+          "tool_name": "Understand-Anything",
+          "title": "Lum1104 / Understand-Anything",
+          "url": "https://github.com/Lum1104/Understand-Anything",
+          "source": "GitHub",
+          "extra": "TypeScript · 5,604 stars today",
+          "summary": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+          "images": [
+            "data/images/2026-05-26/Understand-Anything-1.jpg",
+            "data/images/2026-05-26/Understand-Anything-2.jpg",
+            "https://camo.githubusercontent.com/9fbc1ae522201f2248d04d6608b4473fbf6eb3b7d4fcd2d98f47bb0346579b51/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f517569636b5f53746172742d626c7565",
+            "https://camo.githubusercontent.com/8174925d009b42074d50ab5cc7e29fcb1aa613b0d9cb2e43097697a40cf90fa4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f77",
+            "https://camo.githubusercontent.com/0cd6c7c7b98aa569befc83a0ad50be7059dde642ed8e86caf37ef0f199c5b112/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436c617564655f436f64652d384132424532"
+          ],
+          "reason": "Graphs that teach > graphs that impress，今日在 GitHub 新增 5,604 stars。",
+          "category": "专业",
+          "kind": "工具"
+        },
+        {
+          "tool_name": "knowledge-work-plugins",
+          "title": "anthropics / knowledge-work-plugins",
+          "url": "https://github.com/anthropics/knowledge-work-plugins",
+          "source": "GitHub",
+          "extra": "Python · 1,441 stars today",
+          "summary": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+          "images": [
+            "data/images/2026-05-26/knowledge-work-plugins-1.jpg",
+            "data/images/2026-05-26/knowledge-work-plugins-2.jpg"
+          ],
+          "reason": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork，今日在 GitHub 新增 1,441 stars。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "ai-engineering-from-scratch",
+          "title": "rohitg00 / ai-engineering-from-scratch",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "source": "GitHub",
+          "extra": "Python · 3,154 stars today",
+          "summary": "Learn it. Build it. Ship it for others.",
+          "images": [
+            "https://opengraph.githubassets.com/c7f06227a7ac81a9841bbe6609eef263520d93b54d3c490283e2cf4af36171f8/rohitg00/ai-engineering-from-scratch",
+            "data/images/2026-05-26/ai-engineering-from-scratch-2.jpg",
+            "data/images/2026-05-26/ai-engineering-from-scratch-3.jpg",
+            "https://camo.githubusercontent.com/b41709b5d57b0e5949475662fa054854ddefd3cfea737b7984693ce93287bb0c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d3161316131613f7374796c653d666c61742d737175617265266c6162656c436f6c6f723d666166616635",
+            "https://camo.githubusercontent.com/2a0e0dccc3b2311406c6917fe7c88ea9decf334141ddbfdd0de1571093020468/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6573736f6e732d3433352d3335353366663f7374796c653d666c61742d737175617265266c6162656c436f6c6f723d666166616635"
+          ],
+          "reason": "今日在 GitHub 新增 3,154 stars。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "ECC",
+          "title": "affaan-m / ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "source": "GitHub",
+          "extra": "JavaScript · 2,025 stars today",
+          "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "images": [
+            "data/images/2026-05-26/ECC-1.jpg",
+            "data/images/2026-05-26/ECC-2.jpg",
+            "https://img.shields.io/github/stars/affaan-m/ECC?style=flat",
+            "https://img.shields.io/github/forks/affaan-m/ECC?style=flat",
+            "https://img.shields.io/github/contributors/affaan-m/ECC?style=flat"
+          ],
+          "reason": "The agent harness performance optimization system，今日在 GitHub 新增 2,025 stars。",
+          "category": "专业",
+          "kind": "工具"
+        },
+        {
+          "tool_name": "Anthropic-Cybersecurity-Skills",
+          "title": "mukul975 / Anthropic-Cybersecurity-Skills",
+          "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+          "source": "GitHub",
+          "extra": "Python · 1,004 stars today",
+          "summary": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+          "images": [
+            "data/images/2026-05-26/Anthropic-Cybersecurity-Skills-1.jpg",
+            "data/images/2026-05-26/Anthropic-Cybersecurity-Skills-2.jpg",
+            "data/images/2026-05-26/Anthropic-Cybersecurity-Skills-3.png",
+            "https://camo.githubusercontent.com/c6014480c81a47c68b04893fd2606679cff339521a062c07c55c9ab45b260b35/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f474152532d2d323032362d54616b652532307468652532305375727665792d4538423834423f7374796c653d666f722d7468652d6261646765266c6f676f3d676f6f676c65666f726d73266c6f676f436f6c6f723d626c61636b",
+            "https://camo.githubusercontent.com/7b35841cd2e4be7d8b3641c14243c70b4db0e0a36a27118264bbc267960afd47/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4170616368655f322e302d626c75652e7376673f7374796c653d666c61742d737175617265"
+          ],
+          "reason": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2，今日在 GitHub 新增 1,004 stars。",
+          "category": "专业",
+          "kind": "工具"
+        },
+        {
+          "tool_name": "codegraph",
+          "title": "colbymchenry / codegraph",
+          "url": "https://github.com/colbymchenry/codegraph",
+          "source": "GitHub",
+          "extra": "TypeScript · 3,161 stars today",
+          "summary": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+          "images": [
+            "https://opengraph.githubassets.com/545266675d96eabc01576e2bb515749df0ed12d9143ea5c0c5546a5ae501ec92/colbymchenry/codegraph",
+            "data/images/2026-05-26/codegraph-2.jpg",
+            "https://img.shields.io/npm/v/@colbymchenry/codegraph.svg",
+            "https://camo.githubusercontent.com/e7c72500ed447137dd4b4e608bab8130b5b1920d24f8710a9bde71d8696efce2/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f40636f6c62796d6368656e72792f636f646567726170682e737667",
+            "https://camo.githubusercontent.com/fdf2982b9f5d7489dcf44570e714e3a15fce6253e0cc6b5aa61a075aac2ff71b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f772e737667"
+          ],
+          "reason": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local，今日在 GitHub 新增 3,161 stars。",
+          "category": "专业",
+          "kind": "工具"
+        },
+        {
+          "tool_name": "cmux",
+          "title": "manaflow-ai / cmux",
+          "url": "https://github.com/manaflow-ai/cmux",
+          "source": "GitHub",
+          "extra": "Swift · 603 stars today",
+          "summary": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents",
+          "images": [
+            "https://opengraph.githubassets.com/755387c9a8a3ee40ce29d06b5cdf8ee82fbc391e100ad44b028e4cb7c253e322/manaflow-ai/cmux",
+            "data/images/2026-05-26/cmux-2.jpg",
+            "https://camo.githubusercontent.com/9ba62b02bd55c93053ef0b0fda144fc8d9c13e3f14d2052490c7adba6d5c4103/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f406d616e61666c6f772d3535353f6c6f676f3d78",
+            "data/images/2026-05-26/cmux-4.jpg",
+            "https://camo.githubusercontent.com/2aff096a5df0de24e22652222654f51272dc80bdbe85e7e0a422909666c7cc1c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6d616e61666c6f772d61692f636d75783f7374796c653d666c6174266c6f676f3d676974687562266c6162656c3d737461727326636f6c6f723d346337316632"
+          ],
+          "reason": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents，今日在 GitHub 新增 603 stars。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "andrej-karpathy-skills",
+          "title": "multica-ai / andrej-karpathy-skills",
+          "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+          "source": "GitHub",
+          "extra": "2,749 stars today",
+          "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+          "images": [
+            "data/images/2026-05-26/andrej-karpathy-skills-1.jpg",
+            "data/images/2026-05-26/andrej-karpathy-skills-2.jpg"
+          ],
+          "reason": "A single CLAUDE，今日在 GitHub 新增 2,749 stars。",
+          "category": "专业",
+          "kind": "工具"
+        },
+        {
+          "tool_name": "FinceptTerminal",
+          "title": "Fincept-Corporation / FinceptTerminal",
+          "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+          "source": "GitHub",
+          "extra": "Python · 317 stars today",
+          "summary": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+          "images": [
+            "https://opengraph.githubassets.com/6b5596280b2177e0dd179429adc319f9c9a676a20bf11e3df816aa3495ad8e2d/Fincept-Corporation/FinceptTerminal",
+            "data/images/2026-05-26/FinceptTerminal-2.jpg",
+            "https://hits.sh/github.com/Fincept-Corporation/FinceptTerminal.svg?label=Visits",
+            "https://img.shields.io/github/stars/Fincept-Corporation/FinceptTerminal?style=social",
+            "https://camo.githubusercontent.com/7996c1cb03b1869f1824898861f0aa93cbbebf3756c514a60be66475688e5088/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4147504c2d2d332e302d433036353234"
+          ],
+          "reason": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment，今日在 GitHub 新增 317 stars。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "claude-cookbooks",
+          "title": "anthropics / claude-cookbooks",
+          "url": "https://github.com/anthropics/claude-cookbooks",
+          "source": "GitHub",
+          "extra": "Jupyter Notebook · 141 stars today",
+          "summary": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+          "images": [
+            "data/images/2026-05-26/claude-cookbooks-1.jpg",
+            "data/images/2026-05-26/claude-cookbooks-2.jpg"
+          ],
+          "reason": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude，今日在 GitHub 新增 141 stars。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "taste-skill",
+          "title": "Leonxlnx / taste-skill",
+          "url": "https://github.com/Leonxlnx/taste-skill",
+          "source": "GitHub",
+          "extra": "Shell · 264 stars today",
+          "summary": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+          "images": [
+            "data/images/2026-05-26/taste-skill-1.jpg",
+            "data/images/2026-05-26/taste-skill-2.jpg",
+            "data/images/2026-05-26/taste-skill-3.png",
+            "https://camo.githubusercontent.com/0b3f82fec0904049ae6ba6c7b867454225927a79fd1caceb209eb7628a6faa29/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4f50454e2d7461737465736b696c6c2e6465762d2532336138353566373f7374796c653d666f722d7468652d6261646765266c6162656c436f6c6f723d253233306631373261",
+            "https://camo.githubusercontent.com/ccdd6a4ab3a18e51027ebfd1f8d0ee7c5e97eb3d8b63392244708857ed2b8341/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4c656f6e786c6e782f74617374652d736b696c6c3f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6162656c436f6c6f723d31653239336226636f6c6f723d666262663234"
+          ],
+          "reason": "Taste-Skill - gives your AI good taste，今日在 GitHub 新增 264 stars。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "airi",
+          "title": "moeru-ai / airi",
+          "url": "https://github.com/moeru-ai/airi",
+          "source": "GitHub",
+          "extra": "TypeScript · 62 stars today",
+          "summary": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+          "images": [
+            "data/images/2026-05-26/airi-1.jpg",
+            "data/images/2026-05-26/airi-2.jpg",
+            "data/images/2026-05-26/airi-3.jpg",
+            "https://camo.githubusercontent.com/0f5ae213ac378635adeb5d7f13cef055ad2f7d9a47b36de7b1c67dbe09f609ca/68747470733a2f2f6465657077696b692e636f6d2f62616467652e737667",
+            "https://camo.githubusercontent.com/ede7276329dd9718c59f5f7523de8d398a6c2b7ff8b67aba87ddf60f797bba09/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f6d6f6572752d61692f616972692e7376673f7374796c653d666c617426636f6c6f72413d30383066313226636f6c6f72423d316661363639"
+          ],
+          "reason": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude，今日在 GitHub 新增 62 stars。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "stop-slop",
+          "title": "hardikpandya / stop-slop",
+          "url": "https://github.com/hardikpandya/stop-slop",
+          "source": "GitHub",
+          "extra": "345 stars today",
+          "summary": "A skill file for removing AI tells from prose",
+          "images": [
+            "data/images/2026-05-26/stop-slop-1.jpg",
+            "https://opengraph.githubassets.com/1/hardikpandya/stop-slop",
+            "data/images/2026-05-26/stop-slop-3.png"
+          ],
+          "reason": "A skill file for removing AI tells from prose，今日在 GitHub 新增 345 stars。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "gstack",
+          "title": "garrytan / gstack",
+          "url": "https://github.com/garrytan/gstack",
+          "source": "GitHub",
+          "extra": "TypeScript · 640 stars today",
+          "summary": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+          "images": [
+            "data/images/2026-05-26/gstack-1.jpg",
+            "data/images/2026-05-26/gstack-2.jpg",
+            "data/images/2026-05-26/gstack-3.png",
+            "data/images/2026-05-26/gstack-4.png"
+          ],
+          "reason": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA，今日在 GitHub 新增 640 stars。",
+          "category": "专业",
+          "kind": "工具"
+        },
+        {
+          "tool_name": "openhuman",
+          "title": "tinyhumansai / openhuman",
+          "url": "https://github.com/tinyhumansai/openhuman",
+          "source": "GitHub",
+          "extra": "Rust · 11,906 stars this week",
+          "summary": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+          "images": [
+            "data/images/2026-05-26/openhuman-1.jpg",
+            "data/images/2026-05-26/openhuman-2.jpg",
+            "data/images/2026-05-26/openhuman-3.png",
+            "https://camo.githubusercontent.com/af3c905050822a4144360c684b179a696247cf7bf4a94060abae1b6da334397f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7374617475732d6561726c79253230626574612d6f72616e6765",
+            "https://camo.githubusercontent.com/b46f9601b583df42853c42c1ee020de50f385c8a532735569bde80c2170ba8f3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f74696e7968756d616e7361692f6f70656e68756d616e3f6c6162656c3d6c6174657374"
+          ],
+          "reason": "Your Personal AI super intelligence。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "academic-research-skills",
+          "title": "Imbad0202 / academic-research-skills",
+          "url": "https://github.com/Imbad0202/academic-research-skills",
+          "source": "GitHub",
+          "extra": "Python · 10,678 stars this week",
+          "summary": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+          "images": [
+            "https://opengraph.githubassets.com/213fa3996390da06b5214fbb2e3105accf8cbfb4b6c46a6cf00fab6797eba00d/Imbad0202/academic-research-skills",
+            "data/images/2026-05-26/academic-research-skills-2.jpg",
+            "https://camo.githubusercontent.com/4074213b14adfa781276978379f1ba7be9824949ebd8e5c55119148d9ac091d6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f76657273696f6e2d76332e392e342e322d626c7565",
+            "https://camo.githubusercontent.com/da3491dfbd04b0fa38fae54fadfaba684d2d69444b262277ec354e5c7b18a432/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d434325323042592d2d4e43253230342e302d6c6967687467726579",
+            "data/images/2026-05-26/academic-research-skills-5.jpg"
+          ],
+          "reason": "Academic Research Skills for Claude Code: research → write → review → revise → finalize。",
+          "category": "专业",
+          "kind": "工具"
+        },
+        {
+          "tool_name": "agentmemory",
+          "title": "rohitg00 / agentmemory",
+          "url": "https://github.com/rohitg00/agentmemory",
+          "source": "GitHub",
+          "extra": "TypeScript · 5,687 stars this week",
+          "summary": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+          "images": [
+            "data/images/2026-05-26/agentmemory-1.jpg",
+            "data/images/2026-05-26/agentmemory-2.jpg",
+            "data/images/2026-05-26/agentmemory-3.png",
+            "data/images/2026-05-26/agentmemory-4.jpg",
+            "https://camo.githubusercontent.com/640cecf0db504c8ed766e8788ac2b7a83ae89b6779c396ebe0aa1bacdec8c98f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566972616c253230476974487562253230476973742d313230302532307374617273253230253246253230313732253230666f726b732d4646364233353f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6f676f436f6c6f723d7768697465266c6162656c436f6c6f723d316131613161"
+          ],
+          "reason": "#1 Persistent memory for AI coding agents based on real-world benchmarks。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "oh-my-pi",
+          "title": "can1357 / oh-my-pi",
+          "url": "https://github.com/can1357/oh-my-pi",
+          "source": "GitHub",
+          "extra": "TypeScript · 2,584 stars this week",
+          "summary": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+          "images": [
+            "https://opengraph.githubassets.com/4886468df7ae5582e829c81ff01da57c9a0524eccfc7db5edf9d3f10bd596fd0/can1357/oh-my-pi",
+            "data/images/2026-05-26/oh-my-pi-2.jpg",
+            "data/images/2026-05-26/oh-my-pi-3.webp",
+            "data/images/2026-05-26/oh-my-pi-4.webp",
+            "data/images/2026-05-26/oh-my-pi-5.webp"
+          ],
+          "reason": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "dograh",
+          "title": "dograh-hq / dograh",
+          "url": "https://github.com/dograh-hq/dograh",
+          "source": "GitHub",
+          "extra": "Python · 693 stars this week",
+          "summary": "Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On Prem, BYOK across Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony support.",
+          "images": [
+            "data/images/2026-05-26/dograh-1.jpg",
+            "data/images/2026-05-26/dograh-2.jpg",
+            "https://camo.githubusercontent.com/540c3f2b959d674b4f687a16fc801f770449c6d67051b4510e282fe3bbb256f1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652fe296b65f5472795f7468655f436c6f75642d6170702e646f677261682e636f6d2d3235363365623f7374796c653d666f722d7468652d6261646765",
+            "https://camo.githubusercontent.com/be58ea2325b47018d1a5a969b89c49fcbcdf608b3f781b30da1abd9044a6a8c1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652fe29aa15f53656c662d2d686f73745f696e5f3630732d4f6e655f636f6d6d616e642d3131313832373f7374796c653d666f722d7468652d6261646765",
+            "https://camo.githubusercontent.com/1f9b3b68cec813b8088906a63e3bf9f69a197483995f0f5c665a108e0899d91a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652ff09f92ac5f4a6f696e5f536c61636b2d436f6d6d756e6974792d3441313534423f7374796c653d666f722d7468652d6261646765266c6f676f3d736c61636b"
+          ],
+          "reason": "Open source voice AI platform。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "presenton",
+          "title": "presenton / presenton",
+          "url": "https://github.com/presenton/presenton",
+          "source": "GitHub",
+          "extra": "TypeScript · 1,787 stars this week",
+          "summary": "Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)",
+          "images": [
+            "data/images/2026-05-26/presenton-1.jpg",
+            "data/images/2026-05-26/presenton-2.jpg",
+            "data/images/2026-05-26/presenton-3.png",
+            "https://camo.githubusercontent.com/959a3b5349596f2dd9f254eed986b5b0e4b03c3a991bfcf3c370a2666247fd7f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d417061636865253230322e302d626c75653f7374796c653d666c6174",
+            "https://camo.githubusercontent.com/713adc524595378f178bf527fa2c2a9794954ec32fad90d1776e74e2554a2081/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f70726573656e746f6e2f70726573656e746f6e3f7374796c653d666c6174"
+          ],
+          "reason": "Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "CLI-Anything",
+          "title": "HKUDS / CLI-Anything",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "source": "GitHub",
+          "extra": "Python · 4,010 stars this week",
+          "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+          "images": [
+            "data/images/2026-05-26/CLI-Anything-1.jpg",
+            "data/images/2026-05-26/CLI-Anything-2.jpg",
+            "data/images/2026-05-26/CLI-Anything-3.png",
+            "https://camo.githubusercontent.com/18c3f5ac06054dbfca3df1eb20a71cf748c05e13ab8007b7c80bf09bd9578f01/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f517569636b5f53746172742d355f6d696e2d626c75653f7374796c653d666f722d7468652d6261646765",
+            "https://camo.githubusercontent.com/5545e8b342baba07a0aa211fd88597acb7446ba1d45e1eb8b6fdf2a976344e9d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f434c495f4875622d42726f7773655f2532365f496e7374616c6c2d6666363962343f7374796c653d666f722d7468652d6261646765"
+          ],
+          "reason": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "superpowers",
+          "title": "obra / superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "source": "GitHub",
+          "extra": "Shell · 9,950 stars this week",
+          "summary": "An agentic skills framework & software development methodology that works.",
+          "images": [
+            "https://opengraph.githubassets.com/43ea1e909cb5e5bc7e4e7f6303d3f15a42a6048d4a4a89c11a06a9d2fe89d0f3/obra/superpowers",
+            "data/images/2026-05-26/superpowers-2.jpg"
+          ],
+          "reason": "An agentic skills framework & software development methodology that works。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "routa",
+          "title": "phodal / routa",
+          "url": "https://github.com/phodal/routa",
+          "source": "GitHub",
+          "extra": "TypeScript · 470 stars this week",
+          "summary": "Workspace-first multi-agent coordination platform for AI development, with shared Specs, Kanban orchestration, and MCP/ACP/ A2A support across web and desktop.",
+          "images": [
+            "data/images/2026-05-26/routa-1.jpg",
+            "https://opengraph.githubassets.com/1/phodal/routa",
+            "https://img.shields.io/npm/v/routa-cli",
+            "data/images/2026-05-26/routa-4.jpg",
+            "https://camo.githubusercontent.com/4ecbcc91a94b9190611390066f20064b709cfacf208b71b634e7d5a7c4dcbc5d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f547970655363726970742d352e392d626c75652e737667"
+          ],
+          "reason": "Workspace-first multi-agent coordination platform for AI development, with shared Specs, Kanban orchestration, and MCP/ACP/ A2A support across web and desktop。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "chrome-devtools-mcp",
+          "title": "ChromeDevTools / chrome-devtools-mcp",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "source": "GitHub",
+          "extra": "TypeScript · 1,818 stars this week",
+          "summary": "Chrome DevTools for coding agents",
+          "images": [
+            "https://opengraph.githubassets.com/4b6b6a4c094e32aab8ba27f3740f2ecac1e3d705bd09c04cfd41c77a90d880c8/ChromeDevTools/chrome-devtools-mcp",
+            "data/images/2026-05-26/chrome-devtools-mcp-2.jpg",
+            "https://img.shields.io/npm/v/chrome-devtools-mcp.svg",
+            "https://camo.githubusercontent.com/363103cab760f0f0eb614b230b1d6ae09733c68cb47bbd23f096a5280e6a3a9a/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f6368726f6d652d646576746f6f6c732d6d63702e737667",
+            "https://camo.githubusercontent.com/7138ed6ca5e3744d99ac823b75d72f8fbe796108ffd932dc9bbf292964fe7bd3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f56535f436f64652d56535f436f64653f7374796c653d666c61742d737175617265266c6162656c3d496e7374616c6c25323053657276657226636f6c6f723d303039384646"
+          ],
+          "reason": "Chrome DevTools for coding agents。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "skills",
+          "title": "mattpocock / skills",
+          "url": "https://github.com/mattpocock/skills",
+          "source": "GitHub",
+          "extra": "Shell · 86,188 stars this month",
+          "summary": "Skills for Real Engineers. Straight from my .claude directory.",
+          "images": [
+            "data/images/2026-05-26/skills-1.jpg",
+            "data/images/2026-05-26/skills-2.jpg",
+            "https://skills.sh/b/mattpocock/skills",
+            "data/images/2026-05-26/skills-4.jpg",
+            "https://camo.githubusercontent.com/740aa59e8988d0b6b8bf7a409f4d8dd5caae4056b445dc690360acc7e04fd239/68747470733a2f2f736b696c6c732e73682f622f6d617474706f636f636b2f736b696c6c73"
+          ],
+          "reason": "Skills for Real Engineers。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "financial-services",
+          "title": "anthropics / financial-services",
+          "url": "https://github.com/anthropics/financial-services",
+          "source": "GitHub",
+          "extra": "Python · 19,853 stars this month",
+          "summary": "",
+          "images": [
+            "https://opengraph.githubassets.com/bc1a01401b3133f0bcec6c8d52b43c20c12a89f23da64cbd4bef9baa485ff021/anthropics/financial-services",
+            "data/images/2026-05-26/financial-services-2.jpg"
+          ],
+          "reason": "financial-services 是一款值得关注的 AI 工具。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "maigret",
+          "title": "soxoj / maigret",
+          "url": "https://github.com/soxoj/maigret",
+          "source": "GitHub",
+          "extra": "Python · 10,826 stars this month",
+          "summary": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+          "images": [
+            "data/images/2026-05-26/maigret-1.jpg",
+            "data/images/2026-05-26/maigret-2.jpg",
+            "data/images/2026-05-26/maigret-3.png",
+            "data/images/2026-05-26/maigret-4.png",
+            "data/images/2026-05-26/maigret-5.png"
+          ],
+          "reason": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "TradingAgents",
+          "title": "TauricResearch / TradingAgents",
+          "url": "https://github.com/TauricResearch/TradingAgents",
+          "source": "GitHub",
+          "extra": "Python · 27,064 stars this month",
+          "summary": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+          "images": [
+            "data/images/2026-05-26/TradingAgents-1.jpg",
+            "data/images/2026-05-26/TradingAgents-2.jpg",
+            "data/images/2026-05-26/TradingAgents-3.png",
+            "data/images/2026-05-26/TradingAgents-4.jpg",
+            "data/images/2026-05-26/TradingAgents-5.jpg"
+          ],
+          "reason": "TradingAgents: Multi-Agents LLM Financial Trading Framework。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "Pixelle-Video",
+          "title": "AIDC-AI / Pixelle-Video",
+          "url": "https://github.com/AIDC-AI/Pixelle-Video",
+          "source": "GitHub",
+          "extra": "Python · 13,152 stars this month",
+          "summary": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+          "images": [
+            "https://camo.githubusercontent.com/391d675f77823287173c46613b03a80c2e6eb508a7ea9e271824dc276b0346e5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652ff09f8ea520e8a786e9a291e69599e7a88b2d454134433839",
+            "https://camo.githubusercontent.com/8cedf650583a1e59c21291c78a6d4d4373b2a15f3212d6f302a3412a1591c3e9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652ff09f93a62057696e646f7773e58c852d353043383738",
+            "https://camo.githubusercontent.com/bcac8e05ccbc6472e48b58211b45ecd8305da31b2c9c1e723da59b712c431c95/68747470733a2f2f696d672e736869656c64732e696f2f62616467652ff09f939820e4bdbfe794a8e69687e6a1a32d344139304532",
+            "https://camo.githubusercontent.com/349b4290c5f3a1f207c46fca52d1ae33cb6f7562417f7377dfdd7ba41859d40c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f414944432d41492f506978656c6c652d566964656f2e737667",
+            "https://camo.githubusercontent.com/56b2f29d1ec77f6c0c2a471ac5009ba7ad48e95abf48a8a5ff6ada5a6f12b6e4/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f414944432d41492f506978656c6c652d566964656f2e737667"
+          ],
+          "reason": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "9router",
+          "title": "decolua / 9router",
+          "url": "https://github.com/decolua/9router",
+          "source": "GitHub",
+          "extra": "JavaScript · 11,172 stars this month",
+          "summary": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+          "images": [
+            "data/images/2026-05-26/9router-1.jpg",
+            "data/images/2026-05-26/9router-2.jpg",
+            "https://img.shields.io/npm/v/9router.svg",
+            "https://img.shields.io/npm/dm/9router.svg",
+            "data/images/2026-05-26/9router-5.jpg"
+          ],
+          "reason": "Unlimited FREE AI coding。",
+          "category": "专业",
+          "kind": "工具"
+        },
+        {
+          "tool_name": "free-claude-code",
+          "title": "Alishahryar1 / free-claude-code",
+          "url": "https://github.com/Alishahryar1/free-claude-code",
+          "source": "GitHub",
+          "extra": "Python · 19,114 stars this month",
+          "summary": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+          "images": [
+            "https://opengraph.githubassets.com/fa453943e709dc7eba19f92839a4d103258fead0961423bb7c63dd48d498e197/Alishahryar1/free-claude-code",
+            "data/images/2026-05-26/free-claude-code-2.jpg",
+            "https://camo.githubusercontent.com/7a1226d14a365d288bfe51ece915ee0c7e754a16faa51ff06436504de29b33b4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f772e7376673f7374796c653d666f722d7468652d6261646765",
+            "https://camo.githubusercontent.com/84c91f31355cd06fc650034d4a2e86b4c311dd6c6cdda84970fcf4ba1780fec7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f707974686f6e2d332e31342d3337373661622e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465",
+            "data/images/2026-05-26/free-claude-code-5.jpg"
+          ],
+          "reason": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "ruflo",
+          "title": "ruvnet / ruflo",
+          "url": "https://github.com/ruvnet/ruflo",
+          "source": "GitHub",
+          "extra": "TypeScript · 22,151 stars this month",
+          "summary": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+          "images": [
+            "data/images/2026-05-26/ruflo-1.jpg",
+            "data/images/2026-05-26/ruflo-2.jpg",
+            "https://cognitum.one/agentic-engineering",
+            "data/images/2026-05-26/ruflo-4.jpeg",
+            "https://camo.githubusercontent.com/86fc7cdd791fd74a397e94dbbed8b22b42403105d8604fd6cdd81385ef76888d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5f5472795f7468655f55495f426574612d666c6f2e7275762e696f2d3633363666313f7374796c653d666f722d7468652d6261646765266c6f676f436f6c6f723d7768697465266c6f676f3d7376656c7465"
+          ],
+          "reason": "🌊 The leading agent orchestration platform for Claude。",
+          "category": "专业",
+          "kind": "工具"
+        },
+        {
+          "tool_name": "AiToEarn",
+          "title": "yikart / AiToEarn",
+          "url": "https://github.com/yikart/AiToEarn",
+          "source": "GitHub",
+          "extra": "TypeScript · 7,524 stars this month",
+          "summary": "Let's use AI to Earn!",
+          "images": [
+            "data/images/2026-05-26/AiToEarn-1.jpg",
+            "https://opengraph.githubassets.com/1/yikart/AiToEarn",
+            "https://img.shields.io/github/stars/yikart/AiToEarn?color=fa6470",
+            "data/images/2026-05-26/AiToEarn-4.jpg",
+            "https://camo.githubusercontent.com/bae7ca0dc558ee350ee342f815f9545464b45c517fb802f18515ea5dae4904d0/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f79696b6172742f4169546f4561726e3f636f6c6f723d666136343730"
+          ],
+          "reason": "Let's use AI to Earn。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "UI-TARS-desktop",
+          "title": "bytedance / UI-TARS-desktop",
+          "url": "https://github.com/bytedance/UI-TARS-desktop",
+          "source": "GitHub",
+          "extra": "TypeScript · 5,825 stars this month",
+          "summary": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+          "images": [
+            "data/images/2026-05-26/UI-TARS-desktop-1.jpg",
+            "data/images/2026-05-26/UI-TARS-desktop-2.jpg",
+            "data/images/2026-05-26/UI-TARS-desktop-3.png",
+            "data/images/2026-05-26/UI-TARS-desktop-4.jpg",
+            "https://camo.githubusercontent.com/9386fed716d1c515bd365c2d403dc00dc8b36f6d44201a581a9b8e23806a06f0/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f406167656e742d746172732f636c693f7374796c653d666f722d7468652d626164676526636f6c6f72413d31613161326526636f6c6f72423d334238324636266c6f676f3d6e706d266c6f676f436f6c6f723d7768697465"
+          ],
+          "reason": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "agent-skills",
+          "title": "addyosmani / agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "source": "GitHub",
+          "extra": "Shell · 22,920 stars this month",
+          "summary": "Production-grade engineering skills for AI coding agents.",
+          "images": [
+            "data/images/2026-05-26/agent-skills-1.jpg",
+            "data/images/2026-05-26/agent-skills-2.jpg",
+            "data/images/2026-05-26/agent-skills-3.jpg",
+            "data/images/2026-05-26/agent-skills-4.jpg"
+          ],
+          "reason": "Production-grade engineering skills for AI coding agents。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "sandcastle",
+          "title": "mattpocock / sandcastle",
+          "url": "https://github.com/mattpocock/sandcastle",
+          "source": "GitHub",
+          "extra": "TypeScript · 4,110 stars this month",
+          "summary": "Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()",
+          "images": [
+            "data/images/2026-05-26/sandcastle-1.jpg",
+            "data/images/2026-05-26/sandcastle-2.jpg",
+            "data/images/2026-05-26/sandcastle-3.jpg"
+          ],
+          "reason": "Orchestrate sandboxed coding agents in TypeScript with sandcastle。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "openclaw",
+          "title": "openclaw/openclaw",
+          "url": "https://github.com/openclaw/openclaw",
+          "source": "GitHub",
+          "extra": "TypeScript · 374,717 stars",
+          "summary": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+          "images": [
+            "data/images/2026-05-26/openclaw-1.jpg",
+            "data/images/2026-05-26/openclaw-2.jpg",
+            "data/images/2026-05-26/openclaw-3.jpg",
+            "data/images/2026-05-26/openclaw-4.jpg",
+            "https://camo.githubusercontent.com/1ddb1ef286e297deafb2a4372b7c65516ae65368fd22878a7454dabc2fc4738b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f6f70656e636c61772f6f70656e636c61772f63692e796d6c3f6272616e63683d6d61696e267374796c653d666f722d7468652d6261646765"
+          ],
+          "reason": "Your own personal AI assistant。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "n8n",
+          "title": "n8n-io/n8n",
+          "url": "https://github.com/n8n-io/n8n",
+          "source": "GitHub",
+          "extra": "TypeScript · 189,731 stars",
+          "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+          "images": [
+            "data/images/2026-05-26/n8n-1.jpg",
+            "data/images/2026-05-26/n8n-2.jpg",
+            "data/images/2026-05-26/n8n-3.png",
+            "data/images/2026-05-26/n8n-4.png"
+          ],
+          "reason": "Fair-code workflow automation platform with native AI capabilities。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "AutoGPT",
+          "title": "Significant-Gravitas/AutoGPT",
+          "url": "https://github.com/Significant-Gravitas/AutoGPT",
+          "source": "GitHub",
+          "extra": "Python · 184,557 stars",
+          "summary": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+          "images": [
+            "data/images/2026-05-26/AutoGPT-1.jpg",
+            "data/images/2026-05-26/AutoGPT-2.jpg",
+            "https://img.shields.io/twitter/follow/Auto_GPT?style=social",
+            "data/images/2026-05-26/AutoGPT-4.jpg",
+            "data/images/2026-05-26/AutoGPT-5.jpg"
+          ],
+          "reason": "AutoGPT is the vision of accessible AI for everyone, to use and to build on。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "hermes-agent",
+          "title": "NousResearch/hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent",
+          "source": "GitHub",
+          "extra": "Python · 167,783 stars",
+          "summary": "The agent that grows with you",
+          "images": [
+            "data/images/2026-05-26/hermes-agent-1.jpg",
+            "data/images/2026-05-26/hermes-agent-2.jpg",
+            "data/images/2026-05-26/hermes-agent-3.png",
+            "https://camo.githubusercontent.com/76d7a880842f286c4d4e07baf2db1046197c6cfaa564365e912938445fc54a32/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f63732d6865726d65732d2d6167656e742e6e6f757372657365617263682e636f6d2d4646443730303f7374796c653d666f722d7468652d6261646765",
+            "https://camo.githubusercontent.com/8c0fca73564f21d7a6f235747eb4d739a2e4aaa348b8e074904127baeb944b9e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446973636f72642d3538363546323f7374796c653d666f722d7468652d6261646765266c6f676f3d646973636f7264266c6f676f436f6c6f723d7768697465"
+          ],
+          "reason": "The agent that grows with you。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "prompts.chat",
+          "title": "f/prompts.chat",
+          "url": "https://github.com/f/prompts.chat",
+          "source": "GitHub",
+          "extra": "HTML · 162,835 stars",
+          "summary": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+          "images": [
+            "data/images/2026-05-26/prompts_chat-1.jpg",
+            "data/images/2026-05-26/prompts_chat-2.jpg",
+            "data/images/2026-05-26/prompts_chat-3.jpg",
+            "https://camo.githubusercontent.com/6d224fb190943a3370370b00dc8a45e4a453a0dc6c7298fb8e01f020a4900d77/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f576562736974652d70726f6d7074732e636861742d626c75653f7374796c653d666c61742d737175617265",
+            "data/images/2026-05-26/prompts_chat-5.jpg"
+          ],
+          "reason": "prompts.chat 是一款值得关注的 AI 工具。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "JavaGuide",
+          "title": "Snailclimb/JavaGuide",
+          "url": "https://github.com/Snailclimb/JavaGuide",
+          "source": "GitHub",
+          "extra": "JavaScript · 155,885 stars",
+          "summary": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+          "images": [
+            "https://opengraph.githubassets.com/84d9c794bc562b72ae49af0f20675387275582b3e2aa5627143b5759a0f58a29/Snailclimb/JavaGuide",
+            "https://opengraph.githubassets.com/1/Snailclimb/JavaGuide",
+            "data/images/2026-05-26/JavaGuide-3.jpg",
+            "data/images/2026-05-26/JavaGuide-4.jpg",
+            "data/images/2026-05-26/JavaGuide-5.jpg"
+          ],
+          "reason": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "dify",
+          "title": "langgenius/dify",
+          "url": "https://github.com/langgenius/dify",
+          "source": "GitHub",
+          "extra": "TypeScript · 142,663 stars",
+          "summary": "Production-ready platform for agentic workflow development.",
+          "images": [
+            "data/images/2026-05-26/dify-1.jpg",
+            "data/images/2026-05-26/dify-2.jpg",
+            "data/images/2026-05-26/dify-3.png",
+            "https://camo.githubusercontent.com/a09051a7ffa06afed4576d678352e36b198c5a6671019d3b37a549318b2858a3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f50726f647563742d463034343338",
+            "https://camo.githubusercontent.com/8405a8af89d086f468c7351d1b4f4bbaf29175e89ac680a412c92d634223d5ec/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f667265652d70726963696e673f6c6f676f3d6672656526636f6c6f723d253230253233313535454546266c6162656c3d70726963696e67266c6162656c436f6c6f723d253230253233353238626666"
+          ],
+          "reason": "Production-ready platform for agentic workflow development。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "open-webui",
+          "title": "open-webui/open-webui",
+          "url": "https://github.com/open-webui/open-webui",
+          "source": "GitHub",
+          "extra": "Python · 138,673 stars",
+          "summary": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+          "images": [
+            "data/images/2026-05-26/open-webui-1.jpg",
+            "data/images/2026-05-26/open-webui-2.jpg",
+            "https://camo.githubusercontent.com/26427a0ed61c3edfe1b60d1f2bf2c3d7fd48dd46d9170843930b763469e45645/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6f70656e2d77656275692f6f70656e2d77656275693f7374796c653d736f6369616c",
+            "https://camo.githubusercontent.com/44f2f4a7a2286df63e9977f4d2adad1d56186245b8c4fde2a5855610a13ead23/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f6f70656e2d77656275692f6f70656e2d77656275693f7374796c653d736f6369616c",
+            "https://camo.githubusercontent.com/aa0a7ddaa59e26f1a9c0f02a640ba4dd44219f62b102e22d378b57eef42b181b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f77617463686572732f6f70656e2d77656275692f6f70656e2d77656275693f7374796c653d736f6369616c"
+          ],
+          "reason": "User-friendly AI Interface (Supports Ollama, OpenAI API,。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "system-prompts-and-models-of-ai-tools",
+          "title": "x1xhlol/system-prompts-and-models-of-ai-tools",
+          "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+          "source": "GitHub",
+          "extra": "138,263 stars",
+          "summary": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+          "images": [
+            "https://opengraph.githubassets.com/ee0badbb862de5627c8eff9f8142651a0b0c874fa8b1cae5505e29478780b920/x1xhlol/system-prompts-and-models-of-ai-tools",
+            "data/images/2026-05-26/system-prompts-and-models-of-a-2.jpg",
+            "data/images/2026-05-26/system-prompts-and-models-of-a-3.png",
+            "https://camo.githubusercontent.com/9e078bffc0f3a52cb2b20d77e655aca23d3652c6b55f961fa9f0cc43e7d242c4/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f313430323636303733353833333630343132363f6c6162656c3d4c65616b734c6162253230446973636f7264266c6f676f3d646973636f7264267374796c653d666f722d7468652d6261646765",
+            "https://camo.githubusercontent.com/cd116034456de3a4c62fb824f878005f401e60c49665fcc4eaefdea33f53bcb4/68747470733a2f2f6170702e636c6f75646261636b2e69742f62616467652f783178686c6f6c2f73797374656d2d70726f6d7074732d616e642d6d6f64656c732d6f662d61692d746f6f6c73"
+          ],
+          "reason": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap。",
+          "category": "专业",
+          "kind": "工具"
+        },
+        {
+          "tool_name": "langchain",
+          "title": "langchain-ai/langchain",
+          "url": "https://github.com/langchain-ai/langchain",
+          "source": "GitHub",
+          "extra": "Python · 137,675 stars",
+          "summary": "The agent engineering platform.",
+          "images": [
+            "data/images/2026-05-26/langchain-1.jpg",
+            "data/images/2026-05-26/langchain-2.jpg",
+            "data/images/2026-05-26/langchain-3.jpg",
+            "https://camo.githubusercontent.com/fdc88e6a9118536b90bb814a36ad57de79c1bc7357952f1eda5f985e8d290dcb/68747470733a2f2f696d672e736869656c64732e696f2f707970692f6c2f6c616e67636861696e",
+            "https://camo.githubusercontent.com/4ff1f8961b07b8db24e3623cd07ace6c5e4331646f362d8da4026943614e3515/68747470733a2f2f696d672e736869656c64732e696f2f706570792f64742f6c616e67636861696e"
+          ],
+          "reason": "The agent engineering platform。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "firecrawl",
+          "title": "firecrawl/firecrawl",
+          "url": "https://github.com/firecrawl/firecrawl",
+          "source": "GitHub",
+          "extra": "TypeScript · 124,421 stars",
+          "summary": "🔥 Search, scrape, and clean the web for AI agents.",
+          "images": [
+            "data/images/2026-05-26/firecrawl-1.jpg",
+            "data/images/2026-05-26/firecrawl-2.jpg",
+            "data/images/2026-05-26/firecrawl-3.png",
+            "https://camo.githubusercontent.com/3c07040d6a3169f201d49e5b382fa18328ea7becb0aee301273176173df29c36/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f66697265637261776c2f66697265637261776c",
+            "https://camo.githubusercontent.com/4d690413f05873008084304acda246c7591dae2535f0fa717a8864f6513b526d/68747470733a2f2f7374617469632e706570792e746563682f62616467652f66697265637261776c2d7079"
+          ],
+          "reason": "🔥 Search, scrape, and clean the web for AI agents。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "ComfyUI",
+          "title": "Comfy-Org/ComfyUI",
+          "url": "https://github.com/Comfy-Org/ComfyUI",
+          "source": "GitHub",
+          "extra": "Python · 114,497 stars",
+          "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+          "images": [
+            "data/images/2026-05-26/ComfyUI-1.jpg",
+            "data/images/2026-05-26/ComfyUI-2.jpg",
+            "https://camo.githubusercontent.com/3caaaaa2e198c8739ca865b254856460939921835c3554b12b87c3158f67604f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436f6d66794f72672d3432383546343f7374796c653d666c6174",
+            "data/images/2026-05-26/ComfyUI-4.jpg",
+            "https://camo.githubusercontent.com/a727360db1c47e37b2ab164c3222e86b032405d6d17ce2f52868768f77ed0ee6/68747470733a2f2f696d672e736869656c64732e696f2f747769747465722f666f6c6c6f772f436f6d66795549"
+          ],
+          "reason": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "generative-ai-for-beginners",
+          "title": "microsoft/generative-ai-for-beginners",
+          "url": "https://github.com/microsoft/generative-ai-for-beginners",
+          "source": "GitHub",
+          "extra": "Jupyter Notebook · 111,380 stars",
+          "summary": "21 Lessons, Get Started Building with Generative AI ",
+          "images": [
+            "data/images/2026-05-26/generative-ai-for-beginners-1.jpg",
+            "data/images/2026-05-26/generative-ai-for-beginners-2.jpg",
+            "data/images/2026-05-26/generative-ai-for-beginners-3.png",
+            "https://camo.githubusercontent.com/150a965668e58661e2296e9ebcacfacdcd03dfc8555b2222fb02fafc9c23910a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f6d6963726f736f66742f47656e657261746976652d41492d466f722d426567696e6e6572732e737667",
+            "https://camo.githubusercontent.com/58d3d50d053d3ff6bfe4a21845b1992c85a3a6bf5273b511a11a9563fdb3a4cb/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6e7472696275746f72732f6d6963726f736f66742f47656e657261746976652d41492d466f722d426567696e6e6572732e737667"
+          ],
+          "reason": "21 Lessons, Get Started Building with Generative AI。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "gemini-cli",
+          "title": "google-gemini/gemini-cli",
+          "url": "https://github.com/google-gemini/gemini-cli",
+          "source": "GitHub",
+          "extra": "TypeScript · 104,602 stars",
+          "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+          "images": [
+            "data/images/2026-05-26/gemini-cli-1.jpg",
+            "data/images/2026-05-26/gemini-cli-2.jpg",
+            "https://camo.githubusercontent.com/34811703a711b6037aa43a44195c31c3844bdb76af3fb0221142c7a3f03d5929/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f40676f6f676c652f67656d696e692d636c69",
+            "https://camo.githubusercontent.com/8ad45b29989b35a46e9a9881bd5cbc03e8393ae620f6c70884d3e8e05afe92c0/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f676f6f676c652d67656d696e692f67656d696e692d636c69",
+            "data/images/2026-05-26/gemini-cli-5.jpg"
+          ],
+          "reason": "An open-source AI agent that brings the power of Gemini directly into your terminal。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "supabase",
+          "title": "supabase/supabase",
+          "url": "https://github.com/supabase/supabase",
+          "source": "GitHub",
+          "extra": "TypeScript · 103,025 stars",
+          "summary": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+          "images": [
+            "data/images/2026-05-26/supabase-1.jpg",
+            "https://opengraph.githubassets.com/1/supabase/supabase",
+            "data/images/2026-05-26/supabase-3.png",
+            "data/images/2026-05-26/supabase-4.png",
+            "data/images/2026-05-26/supabase-5.png"
+          ],
+          "reason": "The Postgres development platform。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "LLMs-from-scratch",
+          "title": "rasbt/LLMs-from-scratch",
+          "url": "https://github.com/rasbt/LLMs-from-scratch",
+          "source": "GitHub",
+          "extra": "Jupyter Notebook · 95,971 stars",
+          "summary": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+          "images": [
+            "data/images/2026-05-26/LLMs-from-scratch-1.jpg",
+            "data/images/2026-05-26/LLMs-from-scratch-2.jpg",
+            "data/images/2026-05-26/LLMs-from-scratch-3.jpg",
+            "data/images/2026-05-26/LLMs-from-scratch-4.jpg",
+            "data/images/2026-05-26/LLMs-from-scratch-5.jpg"
+          ],
+          "reason": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "ragflow",
+          "title": "infiniflow/ragflow",
+          "url": "https://github.com/infiniflow/ragflow",
+          "source": "GitHub",
+          "extra": "Python · 81,260 stars",
+          "summary": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+          "images": [
+            "data/images/2026-05-26/ragflow-1.jpg",
+            "data/images/2026-05-26/ragflow-2.jpg",
+            "data/images/2026-05-26/ragflow-3.jpg",
+            "https://camo.githubusercontent.com/5c0caf5ced5e85c6f7980d1551aabee006d055bb853baaad9ce9e0f10bfb57bc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456e676c6973682d444245444641",
+            "https://camo.githubusercontent.com/9bb50c9cf659024406659a9f9c1a9b09f394f05e6bffb238129fb82bf1750e59/68747470733a2f2f696d672e736869656c64732e696f2f62616467652fe7ae80e4bd93e4b8ade696872d444645304535"
+          ],
+          "reason": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "netdata",
+          "title": "netdata/netdata",
+          "url": "https://github.com/netdata/netdata",
+          "source": "GitHub",
+          "extra": "C · 78,941 stars",
+          "summary": "The fastest path to AI-powered full stack observability, even for lean teams.",
+          "images": [
+            "data/images/2026-05-26/netdata-1.jpg",
+            "data/images/2026-05-26/netdata-2.jpg",
+            "data/images/2026-05-26/netdata-3.jpg",
+            "data/images/2026-05-26/netdata-4.jpg",
+            "https://camo.githubusercontent.com/78aa32ef5aaa8ce1379f09c642676fc897d9905b81d68e613b80ad7cebd2af12/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6e6574646174612f6e6574646174613f7374796c653d736f6369616c"
+          ],
+          "reason": "The fastest path to AI-powered full stack observability, even for lean teams。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "claude-mem",
+          "title": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "source": "GitHub",
+          "extra": "TypeScript · 78,225 stars",
+          "summary": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+          "images": [
+            "data/images/2026-05-26/claude-mem-1.jpg",
+            "data/images/2026-05-26/claude-mem-2.jpg",
+            "data/images/2026-05-26/claude-mem-3.webp",
+            "https://camo.githubusercontent.com/a549a7a30bacba7bfceebdc207a8e86c3f2c02995a2527640dca30048fd2b64e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d417061636865253230322e302d626c75652e737667",
+            "https://camo.githubusercontent.com/8a4ee802bdc2ce47110a065a2472c2c9552c8c9c5cc48bfbdeec744100a97b2e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f76657273696f6e2d362e352e302d677265656e2e737667"
+          ],
+          "reason": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions。",
+          "category": "专业",
+          "kind": "工具"
+        },
+        {
+          "tool_name": "lobehub",
+          "title": "lobehub/lobehub",
+          "url": "https://github.com/lobehub/lobehub",
+          "source": "GitHub",
+          "extra": "TypeScript · 77,714 stars",
+          "summary": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
+          "images": [
+            "data/images/2026-05-26/lobehub-1.jpg",
+            "data/images/2026-05-26/lobehub-2.jpg",
+            "data/images/2026-05-26/lobehub-3.png",
+            "https://camo.githubusercontent.com/2e61f257761c911f355de89445e2e5925ad66ac940feb415233f5ff95bc92872/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f6c6f62656875622f6c6f62656875623f636f6c6f723d333639656666266c6162656c436f6c6f723d626c61636b266c6f676f3d676974687562267374796c653d666c61742d737175617265",
+            "data/images/2026-05-26/lobehub-5.jpg"
+          ],
+          "reason": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "daytona",
+          "title": "daytonaio/daytona",
+          "url": "https://github.com/daytonaio/daytona",
+          "source": "GitHub",
+          "extra": "TypeScript · 72,453 stars",
+          "summary": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code",
+          "images": [
+            "data/images/2026-05-26/daytona-1.jpg",
+            "https://opengraph.githubassets.com/1/daytonaio/daytona",
+            "data/images/2026-05-26/daytona-3.png"
+          ],
+          "reason": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "LlamaFactory",
+          "title": "hiyouga/LlamaFactory",
+          "url": "https://github.com/hiyouga/LlamaFactory",
+          "source": "GitHub",
+          "extra": "Python · 71,594 stars",
+          "summary": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+          "images": [
+            "data/images/2026-05-26/LlamaFactory-1.jpg",
+            "data/images/2026-05-26/LlamaFactory-2.jpg",
+            "data/images/2026-05-26/LlamaFactory-3.png",
+            "https://camo.githubusercontent.com/ddfae3db0b4ee0b6ce72bc835e07f87943a0ac4c4f2393ddf1fdf6e8429f5283/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6869796f7567612f4c4c614d412d466163746f72793f7374796c653d736f6369616c",
+            "https://camo.githubusercontent.com/1d073d6bec1955c601a014d89d0fa32877c406c184f4d75af610f571516fc579/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f6869796f7567612f4c4c614d412d466163746f7279"
+          ],
+          "reason": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "deer-flow",
+          "title": "bytedance/deer-flow",
+          "url": "https://github.com/bytedance/deer-flow",
+          "source": "GitHub",
+          "extra": "Python · 69,590 stars",
+          "summary": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+          "images": [
+            "https://opengraph.githubassets.com/528a685a0b301a0919288634134bd8d4d6ea67e974c94c784334f5245940747b/bytedance/deer-flow",
+            "data/images/2026-05-26/deer-flow-2.jpg",
+            "data/images/2026-05-26/deer-flow-3.jpg",
+            "data/images/2026-05-26/deer-flow-4.jpg",
+            "https://camo.githubusercontent.com/fdf2982b9f5d7489dcf44570e714e3a15fce6253e0cc6b5aa61a075aac2ff71b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f772e737667"
+          ],
+          "reason": "An open-source long-horizon SuperAgent harness that researches, codes, and creates。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "OpenBB",
+          "title": "OpenBB-finance/OpenBB",
+          "url": "https://github.com/OpenBB-finance/OpenBB",
+          "source": "GitHub",
+          "extra": "Python · 68,101 stars",
+          "summary": "Financial data platform for analysts, quants and AI agents.",
+          "images": [
+            "data/images/2026-05-26/OpenBB-1.jpg",
+            "data/images/2026-05-26/OpenBB-2.jpg",
+            "data/images/2026-05-26/OpenBB-3.jpg",
+            "data/images/2026-05-26/OpenBB-4.jpg",
+            "https://camo.githubusercontent.com/de34b7d590e02adc8c1e267d4ce07bd872dfbccc3f685aa71fd413f61779a883/68747470733a2f2f696d672e736869656c64732e696f2f747769747465722f75726c2f68747470732f747769747465722e636f6d2f6f70656e62625f66696e616e63652e7376673f7374796c653d736f6369616c266c6162656c3d466f6c6c6f772532302534306f70656e62625f66696e616e6365"
+          ],
+          "reason": "Financial data platform for analysts, quants and AI agents。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "caveman",
+          "title": "JuliusBrussee/caveman",
+          "url": "https://github.com/JuliusBrussee/caveman",
+          "source": "GitHub",
+          "extra": "JavaScript · 64,836 stars",
+          "summary": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+          "images": [
+            "data/images/2026-05-26/caveman-1.jpg",
+            "data/images/2026-05-26/caveman-2.jpg",
+            "data/images/2026-05-26/caveman-3.jpg",
+            "https://camo.githubusercontent.com/32b08ac2815b5494dc93ae4bc0701891d91bea36607726bcb8707d18a2fd20df/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4a756c697573427275737365652f636176656d616e3f7374796c653d666c617426636f6c6f723d79656c6c6f77",
+            "https://camo.githubusercontent.com/f5eb8afd216bc2fb6d672c4a0777dcb6b5ffe6f0dd5f068b03cd0a9131fc382f/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f4a756c697573427275737365652f636176656d616e3f7374796c653d666c6174"
+          ],
+          "reason": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman。",
+          "category": "专业",
+          "kind": "工具"
+        },
+        {
+          "tool_name": "docling",
+          "title": "docling-project/docling",
+          "url": "https://github.com/docling-project/docling",
+          "source": "GitHub",
+          "extra": "Python · 60,371 stars",
+          "summary": "Get your documents ready for gen AI",
+          "images": [
+            "data/images/2026-05-26/docling-1.jpg",
+            "data/images/2026-05-26/docling-2.jpg",
+            "data/images/2026-05-26/docling-3.png",
+            "https://camo.githubusercontent.com/d77d4c8622139c4661568aae7bf8219e855bcac3c8fd11467d89afd82e08b5d7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f61725869762d323430382e30393836392d6233316231622e737667",
+            "https://camo.githubusercontent.com/89648943131f785f7950a481c1bd1edae64c1d1fbf64f7bd79dd2a454f5d4e9a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646f63732d6c6976652d627269676874677265656e"
+          ],
+          "reason": "Get your documents ready for gen AI。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "oh-my-openagent",
+          "title": "code-yeongyu/oh-my-openagent",
+          "url": "https://github.com/code-yeongyu/oh-my-openagent",
+          "source": "GitHub",
+          "extra": "TypeScript · 59,534 stars",
+          "summary": "omo; the best agent harness - previously oh-my-opencode",
+          "images": [
+            "data/images/2026-05-26/oh-my-openagent-1.jpg",
+            "data/images/2026-05-26/oh-my-openagent-2.jpg",
+            "data/images/2026-05-26/oh-my-openagent-3.png",
+            "data/images/2026-05-26/oh-my-openagent-4.png",
+            "https://camo.githubusercontent.com/a7dcbda91b86cb69bc75784b43967d3fd3c4402d7165e262047af5086e2c64d4/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f313435323438373435373038353036333231383f636f6c6f723d353836354632266c6162656c3d646973636f7264266c6162656c436f6c6f723d626c61636b266c6f676f3d646973636f7264266c6f676f436f6c6f723d7768697465267374796c653d666c61742d737175617265"
+          ],
+          "reason": "omo; the best agent harness - previously oh-my-opencode。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "ollama",
+          "title": "ollama/ollama",
+          "url": "https://github.com/ollama/ollama",
+          "source": "GitHub",
+          "extra": "Go · 172,329 stars",
+          "summary": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+          "images": [
+            "data/images/2026-05-26/ollama-1.jpg",
+            "data/images/2026-05-26/ollama-2.jpg",
+            "data/images/2026-05-26/ollama-3.png"
+          ],
+          "reason": "Get up and running with Kimi-K2。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "transformers",
+          "title": "huggingface/transformers",
+          "url": "https://github.com/huggingface/transformers",
+          "source": "GitHub",
+          "extra": "Python · 160,958 stars",
+          "summary": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+          "images": [
+            "data/images/2026-05-26/transformers-1.jpg",
+            "https://opengraph.githubassets.com/1/huggingface/transformers",
+            "https://camo.githubusercontent.com/f36a36c84f2ff8605938db0f71595cdfebb5ebc941833aeb2591205f220bc9d2/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e743f75726c3d68747470733a2f2f68756767696e67666163652e636f2f6170692f736869656c64732f6d6f64656c7326636f6c6f723d627269676874677265656e",
+            "https://camo.githubusercontent.com/7f62e1cfcfe867a265c35832e48d735b7b779115d0ae2d513e08fb3f86bd1294/68747470733a2f2f696d672e736869656c64732e696f2f636972636c6563692f6275696c642f6769746875622f68756767696e67666163652f7472616e73666f726d6572732f6d61696e",
+            "https://camo.githubusercontent.com/640fa56e5fee179de77f33cba6b7cf0b637f78fa10415204aea7eb35b4ff821b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f68756767696e67666163652f7472616e73666f726d6572732e7376673f636f6c6f723d626c7565"
+          ],
+          "reason": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training。",
+          "category": "专业",
+          "kind": ""
+        }
+      ],
+      "error": null
+    },
+    "hackernews": {
+      "items": [
+        {
+          "tool_name": "Show HN: Kanban CLI (A local-first, agent-first task manager",
+          "title": "Show HN: Kanban CLI (A local-first, agent-first task manager for the terminal)",
+          "url": "https://codeberg.org/hydrafog/kanban",
+          "source": "Hacker News",
+          "extra": "16 points · 8 comments",
+          "summary": "Hello HN, Ever since agents have become increasingly common in development, I've been scratching my head as to how to control their randomness. Recently, I decided to emulate an issue-tracking and project-management tool for agent-driven workflows. Kanban is a Rust-based coordination layer designed ",
+          "images": [
+            "data/images/2026-05-26/Show_HN__Kanban_CLI__A_local-f-1.jpg",
+            "data/images/2026-05-26/Show_HN__Kanban_CLI__A_local-f-2.gif",
+            "data/images/2026-05-26/Show_HN__Kanban_CLI__A_local-f-3.gif",
+            "data/images/2026-05-26/Show_HN__Kanban_CLI__A_local-f-4.gif",
+            "data/images/2026-05-26/Show_HN__Kanban_CLI__A_local-f-5.jpg"
+          ],
+          "reason": "Hello HN, Ever since agents have become increasingly common in development, I've been scratching my head as to how to control their randomness，在 Hacker News 获得 16 分、8 条评论。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Show HN: A satirical idle game about running an AI startup",
+          "title": "Show HN: A satirical idle game about running an AI startup",
+          "url": "https://game.trae.academy/",
+          "source": "Hacker News",
+          "extra": "12 points · 4 comments",
+          "summary": "I made an idle/clicker about running an AI startup. You start with a cat-vs-dog classifier and try to make it to AGI, but the NYT sues you for training data, Yann tweets that scaling is dead, and your fired ML engineer leaks the Slack.",
+          "images": [
+            "data/images/2026-05-26/Show_HN__A_satirical_idle_game-1.jpg",
+            "data/images/2026-05-26/Show_HN__A_satirical_idle_game-2.jpg"
+          ],
+          "reason": "I made an idle/clicker about running an AI startup，在 Hacker News 获得 12 分、4 条评论。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "Show HN: How to analyze your LLM output – A behavioural heal",
+          "title": "Show HN: How to analyze your LLM output – A behavioural health monitor for LLMs",
+          "url": "https://splabs.io",
+          "source": "Hacker News",
+          "extra": "10 points · 7 comments",
+          "summary": "Hey HN! We're Dr. Kashyap Thimmaraju and Giuseppe Canale from Silicon Psyche. We've built Posture Sequence Analysis (PSA), a behavioural health monitor for LLMs and AI Agents. Why we built PSA We built PSA because we wanted to operationalize the Cybersecurity Psychology Framework (CPF3)[1] via Silic",
+          "images": [],
+          "reason": "在 Hacker News 获得 10 分、7 条评论。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "Show HN: PhoneDiffusion – Local AI image generation for iOS",
+          "title": "Show HN: PhoneDiffusion – Local AI image generation for iOS",
+          "url": "https://apps.apple.com/us/app/phonediffusion/id6762061991",
+          "source": "Hacker News",
+          "extra": "10 points · 0 comments",
+          "summary": "PhoneDiffusion is officially live Now you can generate AI images locally on iPhone with Stable Diffusion. Fast, private, account-free and specifically built for iOS. What you can do:\n∙ Generate images in under 5 seconds on the newest iPhones\n∙ Choose between fast SD 1.5 models and high quality SDXL ",
+          "images": [],
+          "reason": "PhoneDiffusion is officially live Now you can generate AI images locally on iPhone with Stable Diffusion，在 Hacker News 获得 10 分、0 条评论。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Ask HN: How to get back into programming without AI?",
+          "title": "Ask HN: How to get back into programming without AI?",
+          "url": "https://news.ycombinator.com/item?id=48263955",
+          "source": "Hacker News",
+          "extra": "8 points · 13 comments",
+          "summary": "It's been a long time since I've written code without AI, and I miss it. How can I get back into it without ending up reaching for AI?",
+          "images": [],
+          "reason": "It's been a long time since I've written code without AI, and I miss it，在 Hacker News 获得 8 分、13 条评论。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Show HN: I built a RAG and knowledge graph agent that runs l",
+          "title": "Show HN: I built a RAG and knowledge graph agent that runs locally",
+          "url": "https://news.ycombinator.com/item?id=48248801",
+          "source": "Hacker News",
+          "extra": "7 points · 7 comments",
+          "summary": "Claw-Coder is an AI agent that runs locally on your laptop and has access to powerful tools instead of configuring claude or codex to use a local model just use claw-coder.\nWhy was claw-coder created? Answer: To solve the problem of privacy and security. When you use an agent that is configured with",
+          "images": [],
+          "reason": "Claw-Coder is an AI agent that runs locally on your laptop and has access to powerful tools instead of configuring claude or codex to use a local model just use claw-coder，在 Hacker News 获得 7 分、7 条评论。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "Show HN: Unsiloed AI – #1 on olmOCR-Bench",
+          "title": "Show HN: Unsiloed AI – #1 on olmOCR-Bench",
+          "url": "https://news.ycombinator.com/item?id=48271937",
+          "source": "Hacker News",
+          "extra": "7 points · 4 comments",
+          "summary": "Most of the document parsers fail on real world challenges like complex tables, handwritten documents, historical document scans, equations, multi-column layouts, complex reading order, etc. We built Unsiloed Parser to handle exactly these cases. Our latest parser v3.1 achieved #1 rank and scored 88",
+          "images": [],
+          "reason": "Most of the document parsers fail on real world challenges like complex tables, handwritten documents, historical document scans, equations, multi-column layouts, complex reading order, etc，在 Hacker News 获得 7 分、4 条评论。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Show HN: I built a powerful RAG and knowledge graph agent th",
+          "title": "Show HN: I built a powerful RAG and knowledge graph agent that runs locally",
+          "url": "https://news.ycombinator.com/item?id=48246659",
+          "source": "Hacker News",
+          "extra": "5 points · 3 comments",
+          "summary": "Claw-Coder is an AI agent that runs locally on your laptop and has access to powerful tools instead of configuring claude or codex to use a local model just use claw-coder. Why was claw-coder created?\nAnswer: To solve the problem of privacy and security. When you use an agent that is configured with",
+          "images": [],
+          "reason": "Claw-Coder is an AI agent that runs locally on your laptop and has access to powerful tools instead of configuring claude or codex to use a local model just use claw-coder，在 Hacker News 获得 5 分、3 条评论。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "Show HN: CoreMem – Portable context for AI agents",
+          "title": "Show HN: CoreMem – Portable context for AI agents",
+          "url": "https://coremem.app",
+          "source": "Hacker News",
+          "extra": "5 points · 0 comments",
+          "summary": "CoreMem lets you build collections of context, called a mem, and share it with any AI agent via URL, a Chrome extension, MCP, Cursor/VS Code plugins, a skill, and more. Instead of re-explaining your project or goal when you switch agents or start new sessions, CoreMem keeps your context centrally or",
+          "images": [
+            "data/images/2026-05-26/Show_HN__CoreMem___Portable_co-1.png"
+          ],
+          "reason": "CoreMem lets you build collections of context, called a mem, and share it with any AI agent via URL, a Chrome extension, MCP, Cursor/VS Code plugins, a skill, and more，在 Hacker News 获得 5 分、0 条评论。",
+          "category": "实用",
+          "kind": "作品"
+        },
+        {
+          "tool_name": "Show HN: YouTube MCP, give any AI agent access to YouTube",
+          "title": "Show HN: YouTube MCP, give any AI agent access to YouTube",
+          "url": "https://github.com/umbertotancorre/youtube-mcp",
+          "source": "Hacker News",
+          "extra": "5 points · 3 comments",
+          "summary": "I have a long YouTube watch-later playlist and wanted Claude to help me triage it by summarizing each video. It couldn't. I later discovered YouTube is not accessible to Claude, ChatGPT and majority of AIs. So I built this MCP server to fix that. This is a local MCP server that gives any MCP-compati",
+          "images": [
+            "https://opengraph.githubassets.com/0bf099f1f378810def7df6b826a021b1e3967c48642642eb9ea965dcb996d732/umbertotancorre/youtube-mcp-cli",
+            "https://opengraph.githubassets.com/1/umbertotancorre/youtube-mcp",
+            "https://camo.githubusercontent.com/0dab3947ca07ce046bd1f7467a74e34fcdce7faa9c3de7b7f79f9483a8633b27/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f40756d626572746f74616e636f7272652f796f75747562652d6d63703f6c6162656c3d253430756d626572746f74616e636f727265253246796f75747562652d6d6370",
+            "https://camo.githubusercontent.com/9e3ff8adf75405ae62811a2eed84a30a5e1ac2b9894f75f0c065a6f01d1f35bc/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f40756d626572746f74616e636f7272652f796f75747562652d636c693f6c6162656c3d253430756d626572746f74616e636f727265253246796f75747562652d636c69",
+            "https://camo.githubusercontent.com/fdf2982b9f5d7489dcf44570e714e3a15fce6253e0cc6b5aa61a075aac2ff71b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f772e737667"
+          ],
+          "reason": "I have a long YouTube watch-later playlist and wanted Claude to help me triage it by summarizing each video，在 Hacker News 获得 5 分、3 条评论。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Show HN: Hackobar – One feed for AI news",
+          "title": "Show HN: Hackobar – One feed for AI news",
+          "url": "https://hackobar.com/",
+          "source": "Hacker News",
+          "extra": "5 points · 3 comments",
+          "summary": "Hey HN, Out of frustration of keeping up with AI news, I built hackobar. It fetches the AI related news from multiple sources such as HN, arxiv, github trending repos, huggingface, many ai subreddits, twitter handles that cover AI, Tech news outlets, major ai lab blogs and of course the numerous AI ",
+          "images": [
+            "data/images/2026-05-26/Show_HN__Hackobar___One_feed_f-1.png"
+          ],
+          "reason": "Hey HN, Out of frustration of keeping up with AI news, I built hackobar，在 Hacker News 获得 5 分、3 条评论。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "source": "Hacker News",
+          "extra": "5 points · 4 comments",
+          "summary": "Hi all, I'm sure some of the best engineers out here are having a hard time standing out nowadays. It's hard to evaluate and improve your skills, when AI is writing the code. Especially when a junior dev is sitting by your side and \"accomplishing\" 2x more than you. I didn't like this reality where t",
+          "images": [],
+          "reason": "Hi all, I'm sure some of the best engineers out here are having a hard time standing out nowadays，在 Hacker News 获得 5 分、4 条评论。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "Show HN: Built a tool to create brand-consistent images usin",
+          "title": "Show HN: Built a tool to create brand-consistent images using AI",
+          "url": "https://inktag.io",
+          "source": "Hacker News",
+          "extra": "4 points · 0 comments",
+          "summary": "Hello folks, Over the past months I found it extremely hard to find photos for my blog that looked like MY brand. I was tired of using stock photos and also did not want to spend time on canva creating graphics. The AI images also looked very off-brand and I always had to copy paste my brand instruc",
+          "images": [
+            "https://inktag.io/og.webp",
+            "data/images/2026-05-26/Show_HN__Built_a_tool_to_creat-2.webp",
+            "data/images/2026-05-26/Show_HN__Built_a_tool_to_creat-3.webp",
+            "data/images/2026-05-26/Show_HN__Built_a_tool_to_creat-4.webp",
+            "data/images/2026-05-26/Show_HN__Built_a_tool_to_creat-5.webp"
+          ],
+          "reason": "Hello folks, Over the past months I found it extremely hard to find photos for my blog that looked like MY brand，在 Hacker News 获得 4 分、0 条评论。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Show HN: Feynman AI research Assistant plugin for Obsidian",
+          "title": "Show HN: Feynman AI research Assistant plugin for Obsidian",
+          "url": "https://community.obsidian.md/plugins/feynman-research-agent",
+          "source": "Hacker News",
+          "extra": "3 points · 0 comments",
+          "summary": "Show HN: Feynman AI research Assistant plugin for Obsidian",
+          "images": [
+            "data/images/2026-05-26/Show_HN__Feynman_AI_research_A-1.jpg",
+            "https://community.obsidian.md/plugins/feynman-research-agent/opengraph-image",
+            "https://community.obsidian.md/_next/image?url=https%3A%2F%2Fgithub.com%2Ficarian-systems.png%3Fsize%3D128&w=3840&q=75",
+            "data/images/2026-05-26/Show_HN__Feynman_AI_research_A-4.jpg",
+            "data/images/2026-05-26/Show_HN__Feynman_AI_research_A-5.jpg"
+          ],
+          "reason": "Show HN: Feynman AI research Assistant plugin for Obsidian，在 Hacker News 获得 3 分、0 条评论。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Show HN: HTML Deployer – AI Code to Website Publisher",
+          "title": "Show HN: HTML Deployer – AI Code to Website Publisher",
+          "url": "https://chromewebstore.google.com/detail/html-deployer-1-click-ai/gihmknkabkkghpiocgnoiejagngdegea",
+          "source": "Hacker News",
+          "extra": "3 points · 1 comments",
+          "summary": "Show HN: HTML Deployer – AI Code to Website Publisher",
+          "images": [
+            "data/images/2026-05-26/Show_HN__HTML_Deployer___AI_Co-1.jpg",
+            "https://fonts.gstatic.com/s/i/productlogos/chrome_store/v7/192px.svg",
+            "data/images/2026-05-26/Show_HN__HTML_Deployer___AI_Co-3.jpg",
+            "https://www.gstatic.com/images/branding/productlogos/chrome/v7/192px.svg",
+            "data/images/2026-05-26/Show_HN__HTML_Deployer___AI_Co-5.jpg"
+          ],
+          "reason": "Show HN: HTML Deployer – AI Code to Website Publisher，在 Hacker News 获得 3 分、1 条评论。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "Show HN: AgentLens – see if your AI features work, per custo",
+          "title": "Show HN: AgentLens – see if your AI features work, per customer",
+          "url": "https://agentlens-demo-omega.vercel.app",
+          "source": "Hacker News",
+          "extra": "3 points · 0 comments",
+          "summary": "Show HN: AgentLens – see if your AI features work, per customer",
+          "images": [],
+          "reason": "Show HN: AgentLens – see if your AI features work, per customer，在 Hacker News 获得 3 分、0 条评论。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Ask HN: What is the least sycophantic frontier LLM?",
+          "title": "Ask HN: What is the least sycophantic frontier LLM?",
+          "url": "https://news.ycombinator.com/item?id=48235912",
+          "source": "Hacker News",
+          "extra": "2 points · 1 comments",
+          "summary": "My daily driver is Gemini, and 3.5 Flash seems more sycophantic and malleable than Gemini Pro 3.1, which is a pretty big deal for me -- I really need as much objectivity and impartiality from the LLM as I can get. So I'm contemplating switching to Claude or ChatGPT, and I wanted to ask about your ex",
+          "images": [],
+          "reason": "My daily driver is Gemini, and 3，在 Hacker News 获得 2 分、1 条评论。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Show HN: HN Audio to video AI generator",
+          "title": "Show HN: HN Audio to video AI generator",
+          "url": "https://audiocleaner.ai/audio-to-video-ai",
+          "source": "Hacker News",
+          "extra": "2 points · 2 comments",
+          "summary": "Turn audio into stunning AI videos in minutes. Upload MP3 or WAV files and generate lip sync videos, scene videos, or audio visualizer videos with AI subtitles, multilingual support, multiple aspect ratios, and HD export — no watermark or login required.",
+          "images": [],
+          "reason": "Turn audio into stunning AI videos in minutes，在 Hacker News 获得 2 分、2 条评论。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Show HN: Nerve – self hosted runtime for AI agents",
+          "title": "Show HN: Nerve – self hosted runtime for AI agents",
+          "url": "https://github.com/ClickHouse/nerve",
+          "source": "Hacker News",
+          "extra": "2 points · 3 comments",
+          "summary": "Show HN: Nerve – self hosted runtime for AI agents",
+          "images": [
+            "data/images/2026-05-26/Show_HN__Nerve___self_hosted_r-1.jpg",
+            "data/images/2026-05-26/Show_HN__Nerve___self_hosted_r-2.jpg"
+          ],
+          "reason": "Show HN: Nerve – self hosted runtime for AI agents，在 Hacker News 获得 2 分、3 条评论。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Show HN: AI skills for program / project / delivery managers",
+          "title": "Show HN: AI skills for program / project / delivery managers",
+          "url": "https://news.ycombinator.com/item?id=48271766",
+          "source": "Hacker News",
+          "extra": "2 points · 0 comments",
+          "summary": "A Claude Code and OpenCode skill library that covers the full project and engagement lifecycle through 10 stage-aligned agents and 62 workflows: * Shaping: MEDDIC qualification, ROM estimate, SoW draft * Mobilisation: Charter, RACI, governance, kickoff * Planning: Plan, capacity, budget baseline, es",
+          "images": [],
+          "reason": "A Claude Code and OpenCode skill library that covers the full project and engagement lifecycle through 10 stage-aligned agents and 62 workflows: * Shaping: MEDDIC qualification, ROM estimate, SoW draft * Mobilisation: Charter, RACI, governance, kickoff * Planning: Plan, capacity, budget baseline, es，在 Hacker News 获得 2 分、0 条评论。",
+          "category": "专业",
+          "kind": "作品"
+        },
+        {
+          "tool_name": "Show HN: Bae – AI companion built around persistent memory a",
+          "title": "Show HN: Bae – AI companion built around persistent memory architecture",
+          "url": "https://bae.ppl.studio",
+          "source": "Hacker News",
+          "extra": "2 points · 0 comments",
+          "summary": "Show HN: Bae – AI companion built around persistent memory architecture",
+          "images": [
+            "data/images/2026-05-26/Show_HN__Bae___AI_companion_bu-1.jpg",
+            "data/images/2026-05-26/Show_HN__Bae___AI_companion_bu-2.jpg"
+          ],
+          "reason": "Show HN: Bae – AI companion built around persistent memory architecture，在 Hacker News 获得 2 分、0 条评论。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Show HN: CloudPostOffice – Send messages between apps and ag",
+          "title": "Show HN: CloudPostOffice – Send messages between apps and agents in 4 lines",
+          "url": "https://cloudpostoffice.com/",
+          "source": "Hacker News",
+          "extra": "2 points · 1 comments",
+          "summary": "CloudPostOffice is realtime messaging for apps, scripts, and AI agents. No MQTT broker setup or configuration, no infrastructure to manage. p1 = cpo.postbox('postbox-1', 'your-secret')\n  p1.send(to='postbox-2', msg='hello')\n\n  p2 = cpo.postbox('postbox-2', 'your-secret')\n  p2.listen(lambda msg: prin",
+          "images": [
+            "data/images/2026-05-26/Show_HN__CloudPostOffice___Sen-1.png",
+            "data/images/2026-05-26/Show_HN__CloudPostOffice___Sen-2.png"
+          ],
+          "reason": "CloudPostOffice is realtime messaging for apps, scripts, and AI agents，在 Hacker News 获得 2 分、1 条评论。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Show HN: SynapCores – AI-native database (vector, graph, SQL",
+          "title": "Show HN: SynapCores – AI-native database (vector, graph, SQL, AutoML, LLM)",
+          "url": "https://synapcores.com",
+          "source": "Hacker News",
+          "extra": "2 points · 0 comments",
+          "summary": "Show HN: SynapCores – AI-native database (vector, graph, SQL, AutoML, LLM)",
+          "images": [
+            "data/images/2026-05-26/Show_HN__SynapCores___AI-nativ-1.jpg",
+            "data/images/2026-05-26/Show_HN__SynapCores___AI-nativ-2.jpg"
+          ],
+          "reason": "Show HN: SynapCores – AI-native database (vector, graph, SQL, AutoML, LLM)，在 Hacker News 获得 2 分、0 条评论。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "Show HN: Live AI music sequencing agent",
+          "title": "Show HN: Live AI music sequencing agent",
+          "url": "https://pretzel.shukant.com/?nickname=Anonymous&role=stage",
+          "source": "Hacker News",
+          "extra": "2 points · 0 comments",
+          "summary": "Pretzel is an experiment in live AI agents for music. It's a web synchronized music sequencer that is controlled by an AI agent. Everyone chats with the same AI agent and hears the same music at any time. I'm no audio engineer so it's a pretty basic tune, and turns out audio is a pretty complex 3d f",
+          "images": [
+            "data/images/2026-05-26/Show_HN__Live_AI_music_sequenc-1.jpg"
+          ],
+          "reason": "Pretzel is an experiment in live AI agents for music，在 Hacker News 获得 2 分、0 条评论。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Show HN: Trickster's Table – 20 free trick-taking card games",
+          "title": "Show HN: Trickster's Table – 20 free trick-taking card games with AI opponents",
+          "url": "https://tricksterstable.playagame.app",
+          "source": "Hacker News",
+          "extra": "2 points · 1 comments",
+          "summary": "Hi HN, I’m Dan. I made Trickster's Table, a free mobile and web-based app for playing modern trick-taking card games against AI opponents. The app currently includes 20 games, including Stick 'Em, Yokai Septet, Potato Man, Best of Neapolitan, Pala, Torchlit, and several newer/smaller titles that are",
+          "images": [],
+          "reason": "Hi HN, I’m Dan，在 Hacker News 获得 2 分、1 条评论。",
+          "category": "实用",
+          "kind": ""
+        }
+      ],
+      "error": null
+    },
+    "producthunt": {
+      "items": [
+        {
+          "tool_name": "Parrot Speech-to-text API",
+          "title": "Parrot Speech-to-text API",
+          "url": "https://www.producthunt.com/products/parrot-speech-to-text-api",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "Fast, accurate STT for production-grade voice agents Discussion | Link",
+          "images": [],
+          "reason": "Fast, accurate STT for production-grade voice agents Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "Parsewise API",
+          "title": "Parsewise API",
+          "url": "https://www.producthunt.com/products/parsewise",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "API for agentic multi-document processing Discussion | Link",
+          "images": [],
+          "reason": "API for agentic multi-document processing Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "AI Shadowing",
+          "title": "AI Shadowing",
+          "url": "https://www.producthunt.com/products/ai-shadowing",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "Turn any YouTube video into a language shadowing lesson Discussion | Link",
+          "images": [],
+          "reason": "Turn any YouTube video into a language shadowing lesson Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Brew",
+          "title": "Brew",
+          "url": "https://www.producthunt.com/products/brew-5",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "Like Claude Design For Email marketing Discussion | Link",
+          "images": [],
+          "reason": "Like Claude Design For Email marketing Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "NoteCove",
+          "title": "NoteCove",
+          "url": "https://www.producthunt.com/products/notecove",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "Notes, tasks, and AI — offline-first, no SaaS bill. Discussion | Link",
+          "images": [],
+          "reason": "Notes, tasks, and AI — offline-first, no SaaS bill，登上 Product Hunt 今日榜单。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Ajar",
+          "title": "Ajar",
+          "url": "https://www.producthunt.com/products/ajar",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "Lid Angle Sync & Keep Awake for AI Agents on Mac Discussion | Link",
+          "images": [],
+          "reason": "Lid Angle Sync & Keep Awake for AI Agents on Mac Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Ormedo",
+          "title": "Ormedo",
+          "url": "https://www.producthunt.com/products/ormedo",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "Let AI agents handle your entire outbound pipeline Discussion | Link",
+          "images": [],
+          "reason": "Let AI agents handle your entire outbound pipeline Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "Bond",
+          "title": "Bond",
+          "url": "https://www.producthunt.com/products/outbond",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "Outbound campaigns powered by real buying signals Discussion | Link",
+          "images": [],
+          "reason": "Outbound campaigns powered by real buying signals Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "AVTR-1 Real-Time Open Weights Model",
+          "title": "AVTR-1 Real-Time Open Weights Model",
+          "url": "https://www.producthunt.com/products/avaturn-live-2",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "Generating uncanny AI avatars is now open source Discussion | Link",
+          "images": [],
+          "reason": "Generating uncanny AI avatars is now open source Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "ReplylessAI Sequences",
+          "title": "ReplylessAI Sequences",
+          "url": "https://www.producthunt.com/products/replylessai",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "Outbound email sequences without the sales-tool bloat Discussion | Link",
+          "images": [],
+          "reason": "Outbound email sequences without the sales-tool bloat Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "marpy.io",
+          "title": "marpy.io",
+          "url": "https://www.producthunt.com/products/marpy-io-python-first-ai-dev-platform",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "AI coding platform built specifically for the Python stack Discussion | Link",
+          "images": [],
+          "reason": "AI coding platform built specifically for the Python stack Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "SelectPrism",
+          "title": "SelectPrism",
+          "url": "https://www.producthunt.com/products/selectprism",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "Agents that screen and interview so you can hire faster Discussion | Link",
+          "images": [],
+          "reason": "Agents that screen and interview so you can hire faster Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Kept",
+          "title": "Kept",
+          "url": "https://www.producthunt.com/products/kept-ai-on-your-local-conversations",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "Your AI chats, saved as Markdown locally with no cloud Discussion | Link",
+          "images": [],
+          "reason": "Your AI chats, saved as Markdown locally with no cloud Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Hayley",
+          "title": "Hayley",
+          "url": "https://www.producthunt.com/products/hayley-your-thinking-companion",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "Share your thoughts & gain insights in thinking patterns Discussion | Link",
+          "images": [],
+          "reason": "Share your thoughts & gain insights in thinking patterns Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Supaboard 3.0",
+          "title": "Supaboard 3.0",
+          "url": "https://www.producthunt.com/products/supaboard-ai",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "AI data analysts that understand your business Discussion | Link",
+          "images": [],
+          "reason": "AI data analysts that understand your business Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Unabyss",
+          "title": "Unabyss",
+          "url": "https://www.producthunt.com/products/unabyss",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "MCP-native self-updating context layer for your AI Discussion | Link",
+          "images": [],
+          "reason": "MCP-native self-updating context layer for your AI Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Yansu",
+          "title": "Yansu",
+          "url": "https://www.producthunt.com/products/yansu",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "AI that learns how you work and turns it into software Discussion | Link",
+          "images": [],
+          "reason": "AI that learns how you work and turns it into software Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Fred",
+          "title": "Fred",
+          "url": "https://www.producthunt.com/products/fred-the-uxr-shepherd",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "AI-orchestrated UX research with behavioural tracking Discussion | Link",
+          "images": [],
+          "reason": "AI-orchestrated UX research with behavioural tracking Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "专业",
+          "kind": ""
+        },
+        {
+          "tool_name": "MashuPack",
+          "title": "MashuPack",
+          "url": "https://www.producthunt.com/products/mashupack",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "Turn codebases into a clean file for Claude and ChatGPT Discussion | Link",
+          "images": [],
+          "reason": "Turn codebases into a clean file for Claude and ChatGPT Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "tldx",
+          "title": "tldx",
+          "url": "https://www.producthunt.com/products/tldx",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "Fast CLI to bulk-check domains via RDAP & MCP Discussion | Link",
+          "images": [],
+          "reason": "Fast CLI to bulk-check domains via RDAP & MCP Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "LLMTest",
+          "title": "LLMTest",
+          "url": "https://www.producthunt.com/products/llmtest-2",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "Use the right LLMs in your apps. Setup fallbacks. Be happy. Discussion | Link",
+          "images": [],
+          "reason": "Use the right LLMs in your apps，登上 Product Hunt 今日榜单。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Orchestria",
+          "title": "Orchestria",
+          "url": "https://www.producthunt.com/products/orchestria",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "AI music engine with granular stem control Discussion | Link",
+          "images": [],
+          "reason": "AI music engine with granular stem control Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Pi Coding Agent",
+          "title": "Pi Coding Agent",
+          "url": "https://www.producthunt.com/products/pi-coding-agent-3",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "The coding-agent harness you can make your own Discussion | Link",
+          "images": [],
+          "reason": "The coding-agent harness you can make your own Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Runway Agent",
+          "title": "Runway Agent",
+          "url": "https://www.producthunt.com/products/runway-agent",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "Generate edited, sound-designed videos via chat Discussion | Link",
+          "images": [],
+          "reason": "Generate edited, sound-designed videos via chat Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "实用",
+          "kind": ""
+        },
+        {
+          "tool_name": "Freu AI",
+          "title": "Freu AI",
+          "url": "https://www.producthunt.com/products/freu-cli",
+          "source": "Product Hunt",
+          "extra": "今日上榜",
+          "summary": "Automate any Mac app with $0 recurring run cost Discussion | Link",
+          "images": [],
+          "reason": "Automate any Mac app with $0 recurring run cost Discussion | Link，登上 Product Hunt 今日榜单。",
+          "category": "实用",
+          "kind": ""
+        }
+      ],
+      "error": null
+    },
+    "rss": [
+      {
+        "name": "量子位",
+        "error": null,
+        "items": [
+          {
+            "tool_name": "华为发布AI DC数据基础设施全栈方案，加速行业智能化跃升",
+            "title": "华为发布AI DC数据基础设施全栈方案，加速行业智能化跃升",
+            "url": "https://www.qbitai.com/2026/05/425296.html",
+            "source": "量子位",
+            "extra": "量子位 · 2026-05-26",
+            "summary": "",
+            "images": [
+              "data/images/2026-05-26/华为发布AI_DC数据基础设施全栈方案_加速行业智能化跃升-1.png",
+              "data/images/2026-05-26/华为发布AI_DC数据基础设施全栈方案_加速行业智能化跃升-2.jpg",
+              "https://i.qbitai.com/wp-content/uploads/2026/05/b1aeb9e63dd09cd5245b326a300f09bd.jpeg",
+              "https://i.qbitai.com/wp-content/uploads/2026/05/d29bb736640a7f300aab9ea8dcaded98.jpeg",
+              "data/images/2026-05-26/华为发布AI_DC数据基础设施全栈方案_加速行业智能化跃升-5.jpg"
+            ],
+            "reason": "由 量子位 报道。",
+            "category": "实用",
+            "kind": ""
+          },
+          {
+            "tool_name": "编程权威榜单：千问3.7仅次于Claude，阿里全球第二",
+            "title": "编程权威榜单：千问3.7仅次于Claude，阿里全球第二",
+            "url": "https://www.qbitai.com/2026/05/425150.html",
+            "source": "量子位",
+            "extra": "量子位 · 2026-05-26",
+            "summary": "跻身全球编程模型第一梯队",
+            "images": [
+              "data/images/2026-05-26/编程权威榜单_千问3_7仅次于Claude_阿里全球第二-1.png",
+              "data/images/2026-05-26/编程权威榜单_千问3_7仅次于Claude_阿里全球第二-2.jpg",
+              "https://i.qbitai.com/wp-content/uploads/2026/05/ff6bcf13d919ca4981dd064a9bb91722.png",
+              "data/images/2026-05-26/编程权威榜单_千问3_7仅次于Claude_阿里全球第二-4.jpg"
+            ],
+            "reason": "跻身全球编程模型第一梯队，由 量子位 报道。",
+            "category": "实用",
+            "kind": ""
+          },
+          {
+            "tool_name": "刚刚，国产Agent模型闯入全球第一梯队！限时免费",
+            "title": "刚刚，国产Agent模型闯入全球第一梯队！限时免费",
+            "url": "https://www.qbitai.com/2026/05/424851.html",
+            "source": "量子位",
+            "extra": "量子位 · 2026-05-26",
+            "summary": "深度适配OpenClaw、Claude Code、Hermes等",
+            "images": [
+              "data/images/2026-05-26/刚刚_国产Agent模型闯入全球第一梯队_限时免费-1.png",
+              "data/images/2026-05-26/刚刚_国产Agent模型闯入全球第一梯队_限时免费-2.jpg",
+              "data/images/2026-05-26/刚刚_国产Agent模型闯入全球第一梯队_限时免费-3.jpg",
+              "https://i.qbitai.com/wp-content/uploads/2026/05/1a4f4f2a0e11ae5c2d6a849e7ef9b021.webp",
+              "https://i.qbitai.com/wp-content/uploads/2026/05/ca7deaa496964d8c00d50508a3ef44ca.jpeg"
+            ],
+            "reason": "深度适配OpenClaw、Claude Code、Hermes等，由 量子位 报道。",
+            "category": "实用",
+            "kind": "工具"
+          },
+          {
+            "tool_name": "京东JoyInside戴文军：AI的终极形态不是聊天，是融入你家每一件物品丨AIGC2026",
+            "title": "京东JoyInside戴文军：AI的终极形态不是聊天，是融入你家每一件物品丨AIGC2026",
+            "url": "https://www.qbitai.com/2026/05/424794.html",
+            "source": "量子位",
+            "extra": "量子位 · 2026-05-25",
+            "summary": "硬件不该让人适应，它应该主动适应你",
+            "images": [
+              "data/images/2026-05-26/京东JoyInside戴文军_AI的终极形态不是聊天_是融入-1.png",
+              "data/images/2026-05-26/京东JoyInside戴文军_AI的终极形态不是聊天_是融入-2.jpg",
+              "data/images/2026-05-26/京东JoyInside戴文军_AI的终极形态不是聊天_是融入-3.jpg",
+              "https://i.qbitai.com/wp-content/uploads/2026/05/cf4dc541667d2de2f68c83eff21eb304.jpeg",
+              "https://i.qbitai.com/wp-content/uploads/2026/05/55a605b0f3df4a94e455e0e716db5156.jpeg"
+            ],
+            "reason": "硬件不该让人适应，它应该主动适应你，由 量子位 报道。",
+            "category": "实用",
+            "kind": ""
+          },
+          {
+            "tool_name": "“VLA和世界模型都不是终局，会有物理世界独有的模型” | 蚂蚁灵波沈宇军@AIGC2026",
+            "title": "“VLA和世界模型都不是终局，会有物理世界独有的模型” | 蚂蚁灵波沈宇军@AIGC2026",
+            "url": "https://www.qbitai.com/2026/05/424584.html",
+            "source": "量子位",
+            "extra": "量子位 · 2026-05-25",
+            "summary": "“要做机器人时代的安卓系统”",
+            "images": [
+              "data/images/2026-05-26/_VLA和世界模型都不是终局_会有物理世界独有的模型____-1.png",
+              "data/images/2026-05-26/_VLA和世界模型都不是终局_会有物理世界独有的模型____-2.jpg",
+              "data/images/2026-05-26/_VLA和世界模型都不是终局_会有物理世界独有的模型____-3.jpg",
+              "https://i.qbitai.com/wp-content/uploads/2026/05/74d524e2e0d8eea44b4cbe6c35ed4338.webp",
+              "https://i.qbitai.com/wp-content/uploads/2026/05/2e2336f46c4dd0031655aa2107ed410c.webp"
+            ],
+            "reason": "“要做机器人时代的安卓系统”，由 量子位 报道。",
+            "category": "实用",
+            "kind": ""
+          }
+        ]
+      }
+    ]
+  },
+  "vibe_coding": [
+    {
+      "tool_name": "Understand-Anything",
+      "title": "Lum1104 / Understand-Anything",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "source": "GitHub",
+      "extra": "TypeScript · 5,604 stars today",
+      "summary": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "images": [
+        "data/images/2026-05-26/Understand-Anything-1.jpg",
+        "data/images/2026-05-26/Understand-Anything-2.jpg",
+        "https://camo.githubusercontent.com/9fbc1ae522201f2248d04d6608b4473fbf6eb3b7d4fcd2d98f47bb0346579b51/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f517569636b5f53746172742d626c7565",
+        "https://camo.githubusercontent.com/8174925d009b42074d50ab5cc7e29fcb1aa613b0d9cb2e43097697a40cf90fa4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f77",
+        "https://camo.githubusercontent.com/0cd6c7c7b98aa569befc83a0ad50be7059dde642ed8e86caf37ef0f199c5b112/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436c617564655f436f64652d384132424532"
+      ],
+      "reason": "Graphs that teach > graphs that impress，今日在 GitHub 新增 5,604 stars。",
+      "category": "专业",
+      "kind": "工具"
+    },
+    {
+      "tool_name": "ECC",
+      "title": "affaan-m / ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "source": "GitHub",
+      "extra": "JavaScript · 2,025 stars today",
+      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "images": [
+        "data/images/2026-05-26/ECC-1.jpg",
+        "data/images/2026-05-26/ECC-2.jpg",
+        "https://img.shields.io/github/stars/affaan-m/ECC?style=flat",
+        "https://img.shields.io/github/forks/affaan-m/ECC?style=flat",
+        "https://img.shields.io/github/contributors/affaan-m/ECC?style=flat"
+      ],
+      "reason": "The agent harness performance optimization system，今日在 GitHub 新增 2,025 stars。",
+      "category": "专业",
+      "kind": "工具"
+    },
+    {
+      "tool_name": "Anthropic-Cybersecurity-Skills",
+      "title": "mukul975 / Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "source": "GitHub",
+      "extra": "Python · 1,004 stars today",
+      "summary": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+      "images": [
+        "data/images/2026-05-26/Anthropic-Cybersecurity-Skills-1.jpg",
+        "data/images/2026-05-26/Anthropic-Cybersecurity-Skills-2.jpg",
+        "data/images/2026-05-26/Anthropic-Cybersecurity-Skills-3.png",
+        "https://camo.githubusercontent.com/c6014480c81a47c68b04893fd2606679cff339521a062c07c55c9ab45b260b35/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f474152532d2d323032362d54616b652532307468652532305375727665792d4538423834423f7374796c653d666f722d7468652d6261646765266c6f676f3d676f6f676c65666f726d73266c6f676f436f6c6f723d626c61636b",
+        "https://camo.githubusercontent.com/7b35841cd2e4be7d8b3641c14243c70b4db0e0a36a27118264bbc267960afd47/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4170616368655f322e302d626c75652e7376673f7374796c653d666c61742d737175617265"
+      ],
+      "reason": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2，今日在 GitHub 新增 1,004 stars。",
+      "category": "专业",
+      "kind": "工具"
+    },
+    {
+      "tool_name": "codegraph",
+      "title": "colbymchenry / codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "source": "GitHub",
+      "extra": "TypeScript · 3,161 stars today",
+      "summary": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "images": [
+        "https://opengraph.githubassets.com/545266675d96eabc01576e2bb515749df0ed12d9143ea5c0c5546a5ae501ec92/colbymchenry/codegraph",
+        "data/images/2026-05-26/codegraph-2.jpg",
+        "https://img.shields.io/npm/v/@colbymchenry/codegraph.svg",
+        "https://camo.githubusercontent.com/e7c72500ed447137dd4b4e608bab8130b5b1920d24f8710a9bde71d8696efce2/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f40636f6c62796d6368656e72792f636f646567726170682e737667",
+        "https://camo.githubusercontent.com/fdf2982b9f5d7489dcf44570e714e3a15fce6253e0cc6b5aa61a075aac2ff71b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f772e737667"
+      ],
+      "reason": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local，今日在 GitHub 新增 3,161 stars。",
+      "category": "专业",
+      "kind": "工具"
+    },
+    {
+      "tool_name": "andrej-karpathy-skills",
+      "title": "multica-ai / andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "source": "GitHub",
+      "extra": "2,749 stars today",
+      "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "images": [
+        "data/images/2026-05-26/andrej-karpathy-skills-1.jpg",
+        "data/images/2026-05-26/andrej-karpathy-skills-2.jpg"
+      ],
+      "reason": "A single CLAUDE，今日在 GitHub 新增 2,749 stars。",
+      "category": "专业",
+      "kind": "工具"
+    },
+    {
+      "tool_name": "gstack",
+      "title": "garrytan / gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "source": "GitHub",
+      "extra": "TypeScript · 640 stars today",
+      "summary": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "images": [
+        "data/images/2026-05-26/gstack-1.jpg",
+        "data/images/2026-05-26/gstack-2.jpg",
+        "data/images/2026-05-26/gstack-3.png",
+        "data/images/2026-05-26/gstack-4.png"
+      ],
+      "reason": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA，今日在 GitHub 新增 640 stars。",
+      "category": "专业",
+      "kind": "工具"
+    },
+    {
+      "tool_name": "academic-research-skills",
+      "title": "Imbad0202 / academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "source": "GitHub",
+      "extra": "Python · 10,678 stars this week",
+      "summary": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "images": [
+        "https://opengraph.githubassets.com/213fa3996390da06b5214fbb2e3105accf8cbfb4b6c46a6cf00fab6797eba00d/Imbad0202/academic-research-skills",
+        "data/images/2026-05-26/academic-research-skills-2.jpg",
+        "https://camo.githubusercontent.com/4074213b14adfa781276978379f1ba7be9824949ebd8e5c55119148d9ac091d6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f76657273696f6e2d76332e392e342e322d626c7565",
+        "https://camo.githubusercontent.com/da3491dfbd04b0fa38fae54fadfaba684d2d69444b262277ec354e5c7b18a432/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d434325323042592d2d4e43253230342e302d6c6967687467726579",
+        "data/images/2026-05-26/academic-research-skills-5.jpg"
+      ],
+      "reason": "Academic Research Skills for Claude Code: research → write → review → revise → finalize。",
+      "category": "专业",
+      "kind": "工具"
+    },
+    {
+      "tool_name": "9router",
+      "title": "decolua / 9router",
+      "url": "https://github.com/decolua/9router",
+      "source": "GitHub",
+      "extra": "JavaScript · 11,172 stars this month",
+      "summary": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "images": [
+        "data/images/2026-05-26/9router-1.jpg",
+        "data/images/2026-05-26/9router-2.jpg",
+        "https://img.shields.io/npm/v/9router.svg",
+        "https://img.shields.io/npm/dm/9router.svg",
+        "data/images/2026-05-26/9router-5.jpg"
+      ],
+      "reason": "Unlimited FREE AI coding。",
+      "category": "专业",
+      "kind": "工具"
+    },
+    {
+      "tool_name": "ruflo",
+      "title": "ruvnet / ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "source": "GitHub",
+      "extra": "TypeScript · 22,151 stars this month",
+      "summary": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "images": [
+        "data/images/2026-05-26/ruflo-1.jpg",
+        "data/images/2026-05-26/ruflo-2.jpg",
+        "https://cognitum.one/agentic-engineering",
+        "data/images/2026-05-26/ruflo-4.jpeg",
+        "https://camo.githubusercontent.com/86fc7cdd791fd74a397e94dbbed8b22b42403105d8604fd6cdd81385ef76888d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5f5472795f7468655f55495f426574612d666c6f2e7275762e696f2d3633363666313f7374796c653d666f722d7468652d6261646765266c6f676f436f6c6f723d7768697465266c6f676f3d7376656c7465"
+      ],
+      "reason": "🌊 The leading agent orchestration platform for Claude。",
+      "category": "专业",
+      "kind": "工具"
+    },
+    {
+      "tool_name": "system-prompts-and-models-of-ai-tools",
+      "title": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "source": "GitHub",
+      "extra": "138,263 stars",
+      "summary": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "images": [
+        "https://opengraph.githubassets.com/ee0badbb862de5627c8eff9f8142651a0b0c874fa8b1cae5505e29478780b920/x1xhlol/system-prompts-and-models-of-ai-tools",
+        "data/images/2026-05-26/system-prompts-and-models-of-a-2.jpg",
+        "data/images/2026-05-26/system-prompts-and-models-of-a-3.png",
+        "https://camo.githubusercontent.com/9e078bffc0f3a52cb2b20d77e655aca23d3652c6b55f961fa9f0cc43e7d242c4/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f313430323636303733353833333630343132363f6c6162656c3d4c65616b734c6162253230446973636f7264266c6f676f3d646973636f7264267374796c653d666f722d7468652d6261646765",
+        "https://camo.githubusercontent.com/cd116034456de3a4c62fb824f878005f401e60c49665fcc4eaefdea33f53bcb4/68747470733a2f2f6170702e636c6f75646261636b2e69742f62616467652f783178686c6f6c2f73797374656d2d70726f6d7074732d616e642d6d6f64656c732d6f662d61692d746f6f6c73"
+      ],
+      "reason": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap。",
+      "category": "专业",
+      "kind": "工具"
+    },
+    {
+      "tool_name": "claude-mem",
+      "title": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "source": "GitHub",
+      "extra": "TypeScript · 78,225 stars",
+      "summary": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "images": [
+        "data/images/2026-05-26/claude-mem-1.jpg",
+        "data/images/2026-05-26/claude-mem-2.jpg",
+        "data/images/2026-05-26/claude-mem-3.webp",
+        "https://camo.githubusercontent.com/a549a7a30bacba7bfceebdc207a8e86c3f2c02995a2527640dca30048fd2b64e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d417061636865253230322e302d626c75652e737667",
+        "https://camo.githubusercontent.com/8a4ee802bdc2ce47110a065a2472c2c9552c8c9c5cc48bfbdeec744100a97b2e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f76657273696f6e2d362e352e302d677265656e2e737667"
+      ],
+      "reason": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions。",
+      "category": "专业",
+      "kind": "工具"
+    },
+    {
+      "tool_name": "caveman",
+      "title": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "source": "GitHub",
+      "extra": "JavaScript · 64,836 stars",
+      "summary": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "images": [
+        "data/images/2026-05-26/caveman-1.jpg",
+        "data/images/2026-05-26/caveman-2.jpg",
+        "data/images/2026-05-26/caveman-3.jpg",
+        "https://camo.githubusercontent.com/32b08ac2815b5494dc93ae4bc0701891d91bea36607726bcb8707d18a2fd20df/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4a756c697573427275737365652f636176656d616e3f7374796c653d666c617426636f6c6f723d79656c6c6f77",
+        "https://camo.githubusercontent.com/f5eb8afd216bc2fb6d672c4a0777dcb6b5ffe6f0dd5f068b03cd0a9131fc382f/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f4a756c697573427275737365652f636176656d616e3f7374796c653d666c6174"
+      ],
+      "reason": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman。",
+      "category": "专业",
+      "kind": "工具"
+    },
+    {
+      "tool_name": "Show HN: CoreMem – Portable context for AI agents",
+      "title": "Show HN: CoreMem – Portable context for AI agents",
+      "url": "https://coremem.app",
+      "source": "Hacker News",
+      "extra": "5 points · 0 comments",
+      "summary": "CoreMem lets you build collections of context, called a mem, and share it with any AI agent via URL, a Chrome extension, MCP, Cursor/VS Code plugins, a skill, and more. Instead of re-explaining your project or goal when you switch agents or start new sessions, CoreMem keeps your context centrally or",
+      "images": [
+        "data/images/2026-05-26/Show_HN__CoreMem___Portable_co-1.png"
+      ],
+      "reason": "CoreMem lets you build collections of context, called a mem, and share it with any AI agent via URL, a Chrome extension, MCP, Cursor/VS Code plugins, a skill, and more，在 Hacker News 获得 5 分、0 条评论。",
+      "category": "实用",
+      "kind": "作品"
+    },
+    {
+      "tool_name": "Show HN: AI skills for program / project / delivery managers",
+      "title": "Show HN: AI skills for program / project / delivery managers",
+      "url": "https://news.ycombinator.com/item?id=48271766",
+      "source": "Hacker News",
+      "extra": "2 points · 0 comments",
+      "summary": "A Claude Code and OpenCode skill library that covers the full project and engagement lifecycle through 10 stage-aligned agents and 62 workflows: * Shaping: MEDDIC qualification, ROM estimate, SoW draft * Mobilisation: Charter, RACI, governance, kickoff * Planning: Plan, capacity, budget baseline, es",
+      "images": [],
+      "reason": "A Claude Code and OpenCode skill library that covers the full project and engagement lifecycle through 10 stage-aligned agents and 62 workflows: * Shaping: MEDDIC qualification, ROM estimate, SoW draft * Mobilisation: Charter, RACI, governance, kickoff * Planning: Plan, capacity, budget baseline, es，在 Hacker News 获得 2 分、0 条评论。",
+      "category": "专业",
+      "kind": "作品"
+    },
+    {
+      "tool_name": "刚刚，国产Agent模型闯入全球第一梯队！限时免费",
+      "title": "刚刚，国产Agent模型闯入全球第一梯队！限时免费",
+      "url": "https://www.qbitai.com/2026/05/424851.html",
+      "source": "量子位",
+      "extra": "量子位 · 2026-05-26",
+      "summary": "深度适配OpenClaw、Claude Code、Hermes等",
+      "images": [
+        "data/images/2026-05-26/刚刚_国产Agent模型闯入全球第一梯队_限时免费-1.png",
+        "data/images/2026-05-26/刚刚_国产Agent模型闯入全球第一梯队_限时免费-2.jpg",
+        "data/images/2026-05-26/刚刚_国产Agent模型闯入全球第一梯队_限时免费-3.jpg",
+        "https://i.qbitai.com/wp-content/uploads/2026/05/1a4f4f2a0e11ae5c2d6a849e7ef9b021.webp",
+        "https://i.qbitai.com/wp-content/uploads/2026/05/ca7deaa496964d8c00d50508a3ef44ca.jpeg"
+      ],
+      "reason": "深度适配OpenClaw、Claude Code、Hermes等，由 量子位 报道。",
+      "category": "实用",
+      "kind": "工具"
+    }
+  ]
+}
