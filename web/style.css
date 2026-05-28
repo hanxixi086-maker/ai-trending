@@ -570,6 +570,10 @@ footer {
   border-color: #059669;
   color: #059669;
 }
+/* 小红书文案按钮 — 与 copy-btn 等高，仅加淡红色 accent */
+.copy-btn.xhs-btn { border-color: rgba(217,64,64,.4); color: #c73a3a; }
+.copy-btn.xhs-btn:hover { border-color: #c73a3a; color: #c73a3a; }
+.copy-btn.xhs-btn.copied { background: rgba(217,64,64,.12); border-color: #c73a3a; color: #c73a3a; }
 
 /* ── 今日精选区域 ──────────────────────────────────────────────────────────── */
 .featured-section {

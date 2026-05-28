@@ -3,6 +3,7 @@
 import json
 import re
 import sys
+import time
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -69,6 +70,8 @@ def _merge(fresh: list, historical: list, limit: int) -> list:
                 it["image"] = h["image"]
             if not it.get("intro") and h.get("intro"):
                 it["intro"] = h["intro"]
+            if not it.get("xiaohongshu_post") and h.get("xiaohongshu_post"):
+                it["xiaohongshu_post"] = h["xiaohongshu_post"]
         merged.append(it)
         if len(merged) >= limit:
             return merged
@@ -618,6 +621,51 @@ def main():
         score = it.get("feature_score", 0)
         src   = it.get("source", "")[:12]
         print(f"    #{rank:2d}  {score:5.1f}分  [{src}]  {name}")
+
+    # 5b. 生成小红书文案（只对精选条目，有独立缓存）──────────────────────────────
+    print("\n[ 5b/6 ] 生成小红书文案（精选条目）…")
+    from xiaohongshu_generator import (
+        generate_xiaohongshu_post, XIAOHONGSHU_PROMPT_VERSION
+    )
+    xhs_cache_file = DATA_DIR / "xhs_cache.json"
+    xhs_cache: dict = {}
+    if xhs_cache_file.exists():
+        try:
+            xhs_cache = json.loads(xhs_cache_file.read_text(encoding="utf-8"))
+        except Exception:
+            xhs_cache = {}
+
+    xhs_new = xhs_cached = xhs_fail = 0
+    for it in featured:
+        url       = it.get("url", "")
+        cache_key = f"{url}||{XIAOHONGSHU_PROMPT_VERSION}"
+        name_hint = (it.get("tool_name") or it.get("title") or "")[:28]
+        if cache_key in xhs_cache:
+            it["xiaohongshu_post"] = xhs_cache[cache_key]
+            xhs_cached += 1
+            print(f"  [cache] {name_hint}")
+        else:
+            time.sleep(0.3)   # 与 intro 生成节奏一致，避免限流
+            post = generate_xiaohongshu_post(it)
+            if post:
+                it["xiaohongshu_post"] = post
+                xhs_cache[cache_key]   = post
+                xhs_new += 1
+                print(f"  [new]   {name_hint}  ok")
+            else:
+                it["xiaohongshu_post"] = None
+                xhs_fail += 1
+                print(f"  [fail]  {name_hint}")
+
+    try:
+        xhs_cache_file.write_text(
+            json.dumps(xhs_cache, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+    except Exception as e:
+        print(f"  [warn] xhs_cache 写入失败: {e}")
+
+    print(f"  新生成 {xhs_new} 条，命中缓存 {xhs_cached} 条"
+          + (f"，失败 {xhs_fail} 条" if xhs_fail else ""))
 
     # 6. 写 JSON + 更新索引 ──────────────────────────────────────────────────────
     print("\n[ 6/6 ] 写入 JSON …")

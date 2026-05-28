@@ -142,6 +142,22 @@
               <p class="card-what"
                  x-show="item.intro?.what"
                  x-text="item.intro?.what"></p>
+              <!-- 精选卡底部：复制文案 + 小红书文案 -->
+              <div class="card-footer">
+                <a :href="item.url" target="_blank" rel="noopener noreferrer" class="card-cta">查看详情 →</a>
+                <button class="copy-btn"
+                        :class="{'copied': copyTexts[item.url]}"
+                        @click="copyItem(item)"
+                        x-text="copyTexts[item.url] ? '✅ 已复制' : '📋 复制文案'">
+                </button>
+                <template x-if="item.xiaohongshu_post?.title">
+                  <button class="copy-btn xhs-btn"
+                          :class="{'copied': xhsCopyTexts[item.url]}"
+                          @click="copyXhs(item)"
+                          x-text="xhsCopyTexts[item.url] ? '✅ 已复制' : '📕 小红书文案'">
+                  </button>
+                </template>
+              </div>
             </div>
           </article>
         </template>

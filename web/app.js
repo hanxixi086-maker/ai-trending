@@ -51,6 +51,8 @@ document.addEventListener('alpine:init', () => {
     lb:          { open: false, img: '' },
     // 复制反馈（key: item.url → true/false）
     copyTexts:   {},
+    // 小红书文案复制反馈
+    xhsCopyTexts: {},
     placeholderSvg: PLACEHOLDER_SVG,
 
     // ── 生命周期 ──────────────────────────────────────────────────────────
@@ -83,7 +85,8 @@ document.addEventListener('alpine:init', () => {
       this.catFilter  = '全部';
       this.kindFilter = '全部';
       this.q = '';
-      this.copyTexts = {};
+      this.copyTexts    = {};
+      this.xhsCopyTexts = {};
       try {
         const data = await fetch(`data/${date}.json`).then(r => {
           if (!r.ok) throw new Error(`HTTP ${r.status}`);
@@ -211,6 +214,29 @@ document.addEventListener('alpine:init', () => {
       this.copyTexts = { ...this.copyTexts, [key]: true };
       setTimeout(() => {
         this.copyTexts = { ...this.copyTexts, [key]: false };
+      }, 2000);
+    },
+
+    async copyXhs(item) {
+      const xhs = item.xiaohongshu_post;
+      if (!xhs || !xhs.title || !xhs.body) return;
+      const tagLine = (xhs.tags || []).map(t => `#${t}`).join(' ');
+      const text    = `${xhs.title}\n\n${xhs.body}\n\n${tagLine}`.trim();
+      const key     = item.url;
+      try {
+        await navigator.clipboard.writeText(text);
+      } catch (_) {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.cssText = 'position:fixed;opacity:0';
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+      }
+      this.xhsCopyTexts = { ...this.xhsCopyTexts, [key]: true };
+      setTimeout(() => {
+        this.xhsCopyTexts = { ...this.xhsCopyTexts, [key]: false };
       }, 2000);
     },
 
