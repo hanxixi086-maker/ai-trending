@@ -1,6 +1,7 @@
 """主构建脚本：抓取 → 跨天累积 → 丰富(单图+intro) → 分类 → 名称去重 → 精选评分 → 写 JSON → 更新索引。"""
 
 import json
+import os
 import re
 import sys
 import time
@@ -10,6 +11,15 @@ from pathlib import Path
 # Windows GBK 终端下强制 UTF-8 输出，避免 UnicodeEncodeError
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
+# 自动加载项目根目录的 .env 文件（不依赖 python-dotenv，零额外依赖）
+_env_file = Path(__file__).parent / ".env"
+if _env_file.exists():
+    for _line in _env_file.read_text(encoding="utf-8").splitlines():
+        _line = _line.strip()
+        if _line and not _line.startswith("#") and "=" in _line:
+            _k, _v = _line.split("=", 1)
+            os.environ.setdefault(_k.strip(), _v.strip())
 
 from config import (
     ACCUMULATE_DAYS, MAX_ITEMS_PER_SOURCE,
