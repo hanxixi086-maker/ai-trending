@@ -92,5 +92,46 @@
       "GitHub",
       "开发者工具"
     ]
+  },
+  "https://github.com/scanaislop/aislop||V1": {
+    "title": "AI写代码的坑，一个CLI工具帮你扫雷 🔍",
+    "body": "最近用Claude Code和OpenCode写了不少代码，但总觉得生成的东西有点怪——说不上来哪里不对，就是感觉不像正经人写的。\n\n正好刷到Hacker News上一个工具叫AISlop，一个命令行工具，专门检查AI生成代码里的常见“坏味”。我拿它扫了一遍最近的项目，抓了好几个空catch块和重复辅助函数——这些我以前手翻代码根本注意不到。\n\n它的检测规则是作者实测Claude Code、Codex和OpenCode反复踩坑后总结出来的，比如无用注释、死代码这些AI最爱生成的废料。跑起来就是一条命令，适合拿到AI生成代码后先过一遍再合入。\n\n你平时会不会额外检查AI生成的代码，还是直接信任它？",
+    "tags": [
+      "AI代码",
+      "CLI工具",
+      "代码质量"
+    ]
+  },
+  "https://www.producthunt.com/products/vibeocus-lens||V1": {
+    "title": "前端实时界面直连AI代理？有点意思 ✨",
+    "body": "最近在折腾AI工作流时发现，大部分工具都要求手动截图或导出数据再喂给模型，效率很低。偶然在Product Hunt上看到一款叫Vibeocus Lens的工具，正好解决了这个痛点。\n\n它的核心功能很干脆：把前端实时界面直接连接到AI代理。这里举个具体的场景——我在调试一个动态仪表盘，数据每隔几秒刷新，以前需要不断截图、OCR识别再丢给AI分析。用Vibeocus Lens之后，直接让它实时“看”到界面变化，AI能即时响应，省去了中间所有人工搬运环节。\n\n试下来对技术开发者特别实用，尤其是做实时监控、自动化测试或智能交互界面的场景。毕竟少一层手动操作，就少一次出错的可能。\n\n你有没有在尝试类似的原生连接工具？欢迎来交流～",
+    "tags": [
+      "AI工具",
+      "前端开发",
+      "实时界面",
+      "ProductHunt",
+      "开发者效率"
+    ]
+  },
+  "https://www.elodin.systems/post/elodin-ai-grand-prix-race-sim-harness||V1": {
+    "title": "AI竞速没模拟器？这个开源工具填坑了 🏎️",
+    "body": "最近在准备AI Grand Prix，发现官方仿真器还得等一阵子，手痒想练练手却找不到趁手的工具。直到我在Hacker News上翻到一个叫“Open-Source AI Racing Harness”的开源项目，简直是为我这种参赛者量身定制。\n\n上手试了一下，它是实时飞行软件仿真，专为AI竞速赛事设计的模拟训练环境。我直接下载源码跑了一个基础赛道，AI模型在仿真里跑完一圈只用了几秒，反馈延迟几乎感觉不到，比我自己搭测试环境省事多了。关键是基于已公开的赛事规范构建，练出来的策略应该能无缝迁移到正式比赛。\n\n如果你也在等官方仿真器，或者想提前打磨AI策略，会试试这个工具吗？",
+    "tags": [
+      "AI竞速",
+      "开源仿真",
+      "HackerNews",
+      "模拟训练"
+    ]
+  },
+  "https://github.com/anthropics/claude-plugins-official||V1": {
+    "title": "Claude Code 插件目录，官方维护质量稳 🤖",
+    "body": "最近自己在开发 Claude Code 的插件，发现找靠谱插件好难，GitHub 上搜出来的质量参差不齐。\n\n最近在用 claude-plugins-official，这个是 Anthropic 官方维护的插件目录，里面的插件都经过官方审核，开发时直接参考能省不少踩坑时间。比如我写一个代码审查插件，先在目录里搜到官方示例，照着 API 结构和权限写法来对接，接入过程流畅很多，不用自己猜规则。\n\n如果你也在做 Claude 插件开发，会先看官方这个目录还是直接搜别人的项目？",
+    "tags": [
+      "Claude Code",
+      "插件开发",
+      "Anthropic",
+      "GitHub",
+      "开发工具"
+    ]
   }
 }
