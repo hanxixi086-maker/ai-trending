@@ -143,5 +143,27 @@
       "桌面工具",
       "开发者效率"
     ]
+  },
+  "https://www.producthunt.com/products/second-brain-cloudflare||V1": {
+    "title": "AI 工具老是失忆？这个免费方案能救你🧠",
+    "body": "最近在调试复杂的 Claude 对话流程时，发现 AI 总记不住之前设定的规则，每次都要重新解释一遍上下文，特别影响效率。\n\n后来试了 Second Brain for AI，它相当于给 Claude、ChatGPT 和 Cursor 加了一个长期记忆层。比如我在用 Cursor 写多文件项目时，可以让它记住我偏好的代码风格和命名规则，下次新开其他文件时自动沿用，不再需要反复手打 Prompt。\n\n最关键它目前是免费的，直接集成到常用工具就能用，适合折腾 AI 应用的开发者。你平时遇到过类似的记忆问题吗？是怎么解决的？",
+    "tags": [
+      "AI开发",
+      "Claude",
+      "ChatGPT",
+      "Cursor",
+      "AI工具"
+    ]
+  },
+  "https://github.com/nicobailon/pi-subagents||V1": {
+    "title": "GitHub 今日+69🌟 的 pi-subagents 上手实测",
+    "body": "最近在折腾多 agent 协作，遇到子任务调度老得自己写同步逻辑，挺麻烦的。\n\n在 GitHub 翻到一个叫 pi-subagents 的项目，今天新增了 69 个 Star。它的核心是给 Pi 做的异步子代理委托扩展，支持截断、工件和会话共享。我试着用它把一个数据分析任务拆成三个子代理并行跑，每个子代理独立工作还能共享上下文，最后把结果汇总到一个会话里，整个过程不用手动管理线程。\n\n对技术开发者来说，这种异步委托能省掉不少样板代码，尤其是需要多步骤推理时，子代理各自处理一部分，主代理在哪个步骤截断都可以。\n\n你平时做多代理工具链会怎么处理子任务？",
+    "tags": [
+      "pi-subagents",
+      "异步子代理",
+      "GitHub开源",
+      "Pi扩展",
+      "技术开发"
+    ]
   }
 }
