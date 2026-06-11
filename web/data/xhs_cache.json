@@ -364,5 +364,16 @@
       "代码可视化",
       "开发者工具"
     ]
+  },
+  "https://github.com/apple/container||V1": {
+    "title": "Mac 跑 Linux 容器体验了一下 container 🐳",
+    "body": "最近在折腾本地开发环境，总感觉 Docker Desktop 有点重，正巧发现 GitHub 上有个叫 container 的新工具，用 Swift 写的，针对 Apple 芯片优化，就拿来试了试。\n\n我平时要在 Mac 上调试一个 Linux 下的 Python 服务，用 container 创建一个轻量级虚拟机，导入镜像后跑容器流畅得像本地进程。终端里一条命令启动，日志清晰，完全没有之前配置网络和文件的麻烦。\n\n今天看它新增了 1,611 个 Star，开发者的需求确实很直接。\n\n你也在找 Mac 上更轻的容器方案吗？",
+    "tags": [
+      "Mac工具",
+      "Swift",
+      "Linux容器",
+      "GitHub项目",
+      "开发者效率"
+    ]
   }
 }
