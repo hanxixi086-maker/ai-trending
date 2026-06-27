@@ -647,5 +647,26 @@
       "MCP",
       "GitHub"
     ]
+  },
+  "https://github.com/workweave/router||V1": {
+    "title": "写代码时模型选错？试试这个路由方案 🤖",
+    "body": "最近在用 Claude Code 和 Cursor 写项目，经常发现某个模型更适合当前任务，但手动切换太浪费时间。\n\n比如在 Cursor 里写一段复杂的数据处理逻辑，我直接把请求丢给一个工具，它自动判断应该用 Claude 3.5 还是 GPT-4o，不需要我手动选模型，响应速度也稳定多了。\n\n这个路由功能直接集成在 Claude Code、Codex 和 Cursor 里，开发者装上就能用，不用额外配置。\n\n你写代码时会特意挑模型吗？",
+    "tags": [
+      "开发者工具",
+      "Claude",
+      "Cursor",
+      "AI编程"
+    ]
+  },
+  "https://www.producthunt.com/products/dmv-department-of-machine-verification||V1": {
+    "title": "AI开发者的新玩具：社区治🗳理的命名空间㊙️",
+    "body": "最近在Product Hunt上逛，发现一个叫DMV by Agent Community的工具，正好在头疼AI代理命名总重复的问题。\n\n它本质上是一个由社区治理的AI代理命名空间。比如在做开源项目时，团队里好几个Agent都想注册同一个名字，以前全靠手动协商，现在可以直接用这个空间，由社区规则来决定归属，省去了很多扯皮的步骤。\n\n如果你是AI开发者，或者参与过需要多人协作命名的社区项目，你一般怎么处理命名冲突的？",
+    "tags": [
+      "AI开发",
+      "命名空间",
+      "ProductHunt",
+      "社区治理",
+      "开发者工具"
+    ]
   }
 }
