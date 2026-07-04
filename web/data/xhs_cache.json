@@ -783,5 +783,16 @@
       "模型实现",
       "开源项目"
     ]
+  },
+  "https://www.producthunt.com/products/vox-5||V1": {
+    "title": "写代码靠吼？这个工具让我试了试 🎙️",
+    "body": "最近写代码写到手指酸，突然想：要是能直接跟 Copilot 说话该多好？结果还真在 Product Hunt 上找到了。\n\n这个工具叫 Vox，主打用语音跟 GitHub Copilot 交互。我试了下，打开编辑器后按一下语音键，说“帮我写个处理 CSV 文件的函数”，它不光能听懂，还会把代码生成出来，同时用语音回我“已生成，核心逻辑是 pandas 的 read_csv”。全程不用碰键盘。\n\n目前只支持技术开发者用，和 Copilot 深度绑定。我一般写重复性代码片段时用，省手更省眼。\n\n你写代码时有没有想偷懒说“帮我搞定”的时刻？",
+    "tags": [
+      "Vox",
+      "语音编程",
+      "GitHub Copilot",
+      "ProductHunt",
+      "开发效率"
+    ]
   }
 }
