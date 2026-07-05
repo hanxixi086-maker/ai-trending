@@ -794,5 +794,26 @@
       "ProductHunt",
       "开发效率"
     ]
+  },
+  "https://www.producthunt.com/products/checklistfox||V1": {
+    "title": "清单老手实测：免费AI工具让做PDF清单不再烦心 📋",
+    "body": "我最近在整理项目清单时，发现手动排版总是耗时又难看，直到在Product Hunt上找到ChecklistFox。它是个AI清单制作工具，能免费、即时生成美观的PDF格式清单，不用付费也不用等。\n\n拿我最近一个小项目来说，需要给团队列出5项检查步骤。我在ChecklistFox里直接输入关键词，它立刻输出了一份带对齐标题和项目符号的PDF清单，排版比我之前做的表格还清爽。我直接下载发给同事，不用再开Word调整格式了。\n\n如果你是经常做清单的人，比如任务列表、验收单或教程大纲，ChecklistFo x能省掉很多排版时间，而且完全免费。\n\n你也遇到过清单排版不顺的情况吗？怎么解决的？",
+    "tags": [
+      "ChecklistFox",
+      "清单制作",
+      "AI工具",
+      "免费PDF",
+      "ProductHunt"
+    ]
+  },
+  "https://github.com/Zackriya-Solutions/meetily||V1": {
+    "title": "最近在用meetily，隐私优先的AI会议助手开源了",
+    "body": "我最近在研究本地化的AI工具，发现一个叫meetily的开源项目。它的卖点是全本地处理，不用把数据传到云端。\n\n试了下实时转录，对我来说是刚需。我在处理一小时的团队会议录音时，用了4倍速Parakeet/Whisper处理，效果稳，说话人分离能清楚区分谁说了什么，最终让Ollama跑摘要。整个过程在本地Mac上完成，没有上传任何文件。\n\n作为开发者，我最喜欢它基于Rust构建，轻量且没有网络依赖。如果你也在找本地语音助手，有没有尝试过类似方案？",
+    "tags": [
+      "AI会议助手",
+      "开源工具",
+      "本地转录",
+      "Rust"
+    ]
   }
 }
