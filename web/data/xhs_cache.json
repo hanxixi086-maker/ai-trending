@@ -1155,5 +1155,14 @@
       "内容创作工具",
       "开源项目"
     ]
+  },
+  "https://www.producthunt.com/products/imessage-hermes-on-a-raspberry-pi||V1": {
+    "title": "用树莓派做了个常驻AI代理，挺好玩 🍓",
+    "body": "最近在折腾树莓派，看到iMessage Hermes on a Raspberry Pi这个项目，就试着跑了一下。它的定位是常驻在家中的、始终在线的AI代理，不需要一直开着电脑或手机，树莓派24小时待机就行。\n\n装好之后，我在树莓派上配置了iMessage的转发，然后把AI代理挂上去。日常写代码时，突然想查个API参数，直接发条iMessage给这个代理，它就能回复结果，不用切窗口打断思路。家里网络断联时，它还能记录消息，等恢复后继续处理。\n\n如果你是技术开发者或DIY爱好者，遇到需要常驻AI的场景，可以试试这个方案。你平时会用树莓派做什么有意思的事吗？",
+    "tags": [
+      "树莓派",
+      "AI代理",
+      "iMessage"
+    ]
   }
 }
