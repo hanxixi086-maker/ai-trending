@@ -1441,5 +1441,16 @@
       "语音交互",
       "HackerNews"
     ]
+  },
+  "https://github.com/cathrynlavery/diagram-design||V1": {
+    "title": "给 Claude Code 配了 29 种图表，开发文档终于不秃头了 📊",
+    "body": "最近在整理项目文档，发现代码逻辑讲清楚不难，难的是把架构、流程、时序关系画得让同事一眼看懂。之前试过截图手画、在线工具导出，要么格式乱，要么改起来麻烦。\n\n后来在 GitHub 上翻到 diagram-design，是给 Claude Code 用的。它自带 29 种编辑级图表类型，全部是自包含的 HTML 和 SVG，不依赖 Mermaid，也没有外部依赖。我直接在 Claude Code 里让它生成一张状态机图，输出就是干净的单文件 SVG，拖进浏览器就能改节点，再导出成 PNG 贴进文档，整个过程没切换过工具。\n\n对做技术方案或者写研究笔记的人来说，这个工具能省掉不少“画图五分钟，改图两小时”的重复劳动。尤其是那种要反复迭代的流程图，直接让模型出图，改文字比改画布快得多。\n\n你平时在 Claude Code 里画图，是习惯用 Mermaid 还是直接用 HTML/SVG 输出？",
+    "tags": [
+      "Claude Code",
+      "GitHub开源",
+      "开发工具",
+      "技术文档",
+      "SVG"
+    ]
   }
 }
