@@ -1586,5 +1586,36 @@
       "智能体",
       "编码效率"
     ]
+  },
+  "https://www.producthunt.com/products/blender-agent-bridge||V1": {
+    "title": "Blender 用户进，AI 工作流桥接开源方案🔧",
+    "body": "最近在调 Blender 的 AI 辅助流程，卡在数据打通上，模型和场景之间传参特别麻烦。\n\n我找到了一个叫 Blender Agent Bridge 的工具，它是开源的 MCP 桥接方案。我用它把本地模型直接连到 Blender 的场景节点，测试时只需要在模型端发指令，Blender 这边就能自动更新材质参数，省掉了手动导来导去的步骤。\n\n这个工具目前在 Product Hunt 上可以找到，适合已经在用 Blender 并且折腾 AI 工作流的朋友。如果你也遇到过类似的数据断点问题，可以试试看。\n\n你平时会用哪些方式让 Blender 和 AI 工具协作呢？",
+    "tags": [
+      "Blender",
+      "AI工作流",
+      "MCP",
+      "开源工具"
+    ]
+  },
+  "https://www.producthunt.com/products/epsilla||V1": {
+    "title": "多工具整合太乱？这个开源接口帮了大忙 🔧",
+    "body": "最近在搭智能体工具链，最头疼的就是每个 agent harness 都要单独对接，接口五花八门，光配置就耗掉半天。\n\n后来在 Product Hunt 上看到 HarnessRouter Community Edition，是个统一开源接口，专门用来集成和管理多种 agent harness。我直接把几个常用工具挂到它下面，统一配置入口，切换时不用改业务代码，只调这一个接口就行。\n\n实际用的时候，我先把两个 harness 注册进去，各自的路由规则写好，然后测试请求都能正确转发到对应的 agent。整个流程清晰多了，调试也方便，不用再翻各个工具的文档对参数。\n\n你目前是怎么管理多个 agent harness 的？有没有类似痛点？",
+    "tags": [
+      "开源工具",
+      "agent开发",
+      "工具链",
+      "接口管理",
+      "ProductHunt"
+    ]
+  },
+  "https://www.producthunt.com/products/chert||V1": {
+    "title": "给 FaceTime 加个 AI 代理？几行代码搞定🎥",
+    "body": "最近在做视频类 app 的迭代，一直苦于在通话场景里加智能功能太麻烦。没想到在 Product Hunt 上刷到了 Chert，直接用几行代码就能给 FaceTime 集成 AI 视频代理，真的省了不少事。\n\n我的实际使用场景是：在测试环境里，通过 Chert 给 FaceTime 通话接入了实时的 AI 字幕与转写功能。不需要额外搭服务，只要按文档把代码嵌进现有工程，跑通后视频通话里就能看到 AI 生成的实时文本，试下来延迟挺低，团队反馈也不错。\n\n对于视频应用开发者来说，这个工具的价值在于把 AI 能力快速对接进 FaceTime 生态，不用自己从头写复杂逻辑。目前我只试了基础功能，后续还想看看它在多人通话里的表现。\n\n你最近在视频开发里遇到过哪些想要 AI 解决的痛点？来聊聊～",
+    "tags": [
+      "FaceTime开发",
+      "AI视频代理",
+      "开发者工具",
+      "ProductHunt"
+    ]
   }
 }
